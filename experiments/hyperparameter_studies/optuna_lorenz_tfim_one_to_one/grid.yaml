@@ -1,0 +1,8 @@
+# optuna_lorenz_tfim_one_to_one under the two-stage search-then-holdout protocol.
+# `target` covers the two values the manuscript consumes, x_1 and all_1; see README.md.
+name: optuna_lorenz63_qrc_tilted_tfim
+axes:
+  - n: {values: [6]}
+  - d: {values: [1, 2, 3]}
+  - target: {values: [x_1, all_1]}
+  - encoding_mode: {values: [one_to_one]}

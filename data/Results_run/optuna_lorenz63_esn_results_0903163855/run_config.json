@@ -1,0 +1,37 @@
+{
+  "name": "optuna_lorenz63_esn",
+  "run_id": "0903163855",
+  "generated_at": "2026-09-03T16:38:53+02:00",
+  "config_path": "experiments/hyperparameter_studies/optuna_lorenz_esn_one_to_one/grid.yaml",
+  "config_sha256": "15df170872445be882177a458a4994bac8063d567301595ea807756d9045df32",
+  "grid_fingerprint": "83fad25bc8a1dcc30de61c5eb8861ba470fd90775ef556d4c37a582e3a93ee3a",
+  "axes": [
+    {
+      "n": [
+        "6"
+      ]
+    },
+    {
+      "d": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "target": [
+        "x_1",
+        "all_1"
+      ]
+    },
+    {
+      "encoding_mode": [
+        "one_to_one"
+      ]
+    }
+  ],
+  "filter": null,
+  "job_count": 6,
+  "target_script": "run_optuna_job",
+  "python": "3.12.3"
+}

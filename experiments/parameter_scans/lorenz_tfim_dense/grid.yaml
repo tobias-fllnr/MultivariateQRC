@@ -1,0 +1,18 @@
+# lorenz_tfim_dense at the tuned gamma.
+# An encoding- and coupling-strength scan at d = 3, the only slice any figure plots, with
+# gamma taken from the holdout hyperparameter study rather than chosen by hand: 3.0 is
+# 3.006285 rounded to the nearest integer -- the gamma of the best trial at n = 6,
+# d = 3, target all_1 in experiments/hyperparameter_studies/optuna_lorenz_tfim_dense/,
+# run 0903163855.
+# With a single d there is nothing to pair, so this grid carries no d-gamma filter.
+# See README.md.
+name: lorenz63_qrc_tilted_tfim
+axes:
+  - n: {values: [6]}
+  - d: {values: [3]}
+  - encoding_mode: {values: [dense]}
+  - dt: {values: [1.0]}
+  - encoding_strength: {logspace: [-4, 0, 13]}
+  - coupling_strength: {logspace: [-5, 1, 19]}
+  - gamma: {values: [3.0]}
+  - seed: {range: 20}

@@ -1,0 +1,23 @@
+# A virtualenv created as the README describes.
+.venv/
+
+# Python bytecode, written whenever the deposited modules are imported.
+__pycache__/
+*.py[cod]
+
+# Written by prepare_jobs.py: the argument file and the local, HTCondor and Slurm
+# submission scripts for a grid, plus the directory cluster jobs log into.
+code/jobs/
+code/logs/
+
+# ensemble_sweep_mixing.py writes a PNG preview beside its PDF. The deposited figure set
+# is the eight PDFs alone; reproduce_all.sh deletes the preview, but a bare run of that
+# script leaves one behind.
+figures/*.png
+
+# A simulation run started from these grids writes its per-seed results into a NEW
+# directory under data/Results_run/, named for the run ID it allocates. Those results are
+# yours, not part of the deposit, and are deliberately not matched by a pattern here --
+# check what you are adding before committing anything under data/.
+
+.DS_Store

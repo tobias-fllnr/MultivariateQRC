@@ -1,0 +1,7 @@
+# optuna_mixing_gaussian_dense under the two-stage search-then-holdout protocol,
+# over the window Figure 2 plots, n <= 6 and d <= 5; see README.md.
+name: optuna_mixing_capacity_qrc_gaussian
+axes:
+  - n: {values: [2, 3, 4, 5, 6]}
+  - d: {values: [2, 3, 4, 5]}
+  - encoding_mode: {values: [dense]}

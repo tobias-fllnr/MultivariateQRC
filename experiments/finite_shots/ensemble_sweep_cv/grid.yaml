@@ -1,0 +1,42 @@
+# Degree-2 mixing capacity versus measurement ensemble size, CV reservoir, n=4, searched at
+# 300 trials. Its CV/DV twin is ../ensemble_sweep_dv/, and the two grids are identical but
+# for the task name.
+#
+# Why a deeper search than the protocol's 100. 100-trial searches over these two grids
+# returned no false zeros, but the DV one_to_one study at 1e8 shots came back significantly
+# BELOW both its neighbours in M (-0.0211 against 1e6, t=-3.60; +0.0480 to 1e10, t=+6.00).
+# That cannot be physical: the achievable capacity C*(M) = max over theta of C(theta, M) is
+# non-decreasing in M, because at fixed theta more shots is strictly more information. A dip
+# is therefore a search deficiency, and the fix is search effort.
+#
+# Measured, not assumed: on a synthetic landscape that is exactly 0.0 over 94% of the search
+# space, 100 trials put 54 of 100 evaluations in the productive region and 300 put 235,
+# raising the best found from 0.1945 to 0.1997.
+#
+# n_startup_trials is 30, which HOLDS THE WARMUP AT THE 10% OF BUDGET the 100-trial
+# protocol had, rather than letting it fall to 3.3% because the total tripled. That is a
+# choice about proportion, not a fix demanded by measurement: the synthetic sweep shows the
+# warmup is not a sensitive parameter here -- at 300 trials, startup 10 / 30 / 100 give
+# 0.1997 / 0.1998 / 0.1998 -- while a pure random search (startup 300 of 300) finds only
+# 0.1560, losing 22%. TPE earns its keep as soon as it has any gradient at all, so the
+# warmup stays a small fraction and the total is what grows.
+#
+# One consequence, and it is a real cost: changing the warmup changes every TPE suggestion
+# from trial 10 onward, so these studies are NOT extensions of the 100-trial searches that
+# preceded them. Only the first 10 trials coincide (verified directly). best-of-300 >=
+# best-of-100 is therefore not guaranteed at any single grid point -- it holds in
+# expectation, from 3x the budget, not by construction. Keeping the warmup at 10 would have
+# bought that guarantee; the proportion was judged worth more.
+#
+# The .inf row is searched here at the same 300 trials rather than reusing the exact-limit
+# result Figure 2 reports. At 300 trials that reuse would no longer be honest: the reference
+# would be searched with a third of the effort of the finite columns, biasing every
+# percentage upward. See README.md.
+name: optuna_mixing_capacity_qrc_gaussian
+n_trials: 300
+n_startup_trials: 30
+axes:
+  - n: {values: [4]}
+  - d: {values: [2]}
+  - encoding_mode: {values: [one_to_one, dense, fill]}
+  - n_shots: {values: [10000, 1000000, 100000000, 10000000000, 1000000000000, .inf]}

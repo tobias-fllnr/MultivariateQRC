@@ -1,0 +1,4011 @@
+{
+    "best_params": {
+        "encoding_strength": 0.061611302712537806,
+        "coupling_strength": 0.32671270751273085,
+        "gamma": 4.785226030644198
+    },
+    "sampler_seed": 3848814771,
+    "n": 4,
+    "d": 2,
+    "encoding_mode": "dense",
+    "target": null,
+    "n_shots": null,
+    "n_settings": 3,
+    "search_score_mean": 0.2429769717526506,
+    "search_score_std": 0.027874836562276455,
+    "search_score_test_mean": null,
+    "search_score_test_std": null,
+    "holdout_score_mean": 0.2056536057741789,
+    "holdout_score_sd": 0.024631768312438008,
+    "holdout_score_sem": 0.005507830835263666,
+    "holdout_scores": [
+        0.2258589288459817,
+        0.21485864042324934,
+        0.1726510738346135,
+        0.20705153210962593,
+        0.1867154222996753,
+        0.18874182666107264,
+        0.20301686736709787,
+        0.26475114176551573,
+        0.18911404319017958,
+        0.19797447232862167,
+        0.19167858255086037,
+        0.21123860986719178,
+        0.2024552643223805,
+        0.18984874982950042,
+        0.2361053779220433,
+        0.19917481703742612,
+        0.24143630441168887,
+        0.18498364231967712,
+        0.16889873684136525,
+        0.23651808155581136
+    ],
+    "holdout_seeds": [
+        1000,
+        1001,
+        1002,
+        1003,
+        1004,
+        1005,
+        1006,
+        1007,
+        1008,
+        1009,
+        1010,
+        1011,
+        1012,
+        1013,
+        1014,
+        1015,
+        1016,
+        1017,
+        1018,
+        1019
+    ],
+    "n_holdout_ok": 20,
+    "holdout_failed_seeds": [],
+    "search_optimism": 0.03732336597847169,
+    "trials": [
+        {
+            "number": 0,
+            "params": {
+                "encoding_strength": 0.03850457927148345,
+                "coupling_strength": 1.236405279125819,
+                "gamma": 0.8202395051786443
+            },
+            "mean": 0.11306635126895556,
+            "std": 0.03965135741137422,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 1,
+            "params": {
+                "encoding_strength": 0.0020141149214009135,
+                "coupling_strength": 0.0005843936345834077,
+                "gamma": 0.011439301458836579
+            },
+            "mean": 0.0,
+            "std": 0.0,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 2,
+            "params": {
+                "encoding_strength": 0.671556853148078,
+                "coupling_strength": 0.011006296462743646,
+                "gamma": 0.19805034909401717
+            },
+            "mean": 0.1192269242495964,
+            "std": 0.0176149276957044,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 3,
+            "params": {
+                "encoding_strength": 0.019188161365809156,
+                "coupling_strength": 0.6381267431675339,
+                "gamma": 0.02500277585060723
+            },
+            "mean": 0.0,
+            "std": 0.0,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 4,
+            "params": {
+                "encoding_strength": 0.011972387660015446,
+                "coupling_strength": 1.1409824668804247,
+                "gamma": 5.583928419780429
+            },
+            "mean": 0.20501534147137762,
+            "std": 0.035322255389441753,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 5,
+            "params": {
+                "encoding_strength": 0.0026408853874475,
+                "coupling_strength": 8.510952481839027,
+                "gamma": 5.4941977227033325
+            },
+            "mean": 0.08229268161999967,
+            "std": 0.01120554825573054,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 6,
+            "params": {
+                "encoding_strength": 0.7304454436999798,
+                "coupling_strength": 0.0006358945689110355,
+                "gamma": 2.578816725943969
+            },
+            "mean": 0.19806130857846488,
+            "std": 0.01308848875561287,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 7,
+            "params": {
+                "encoding_strength": 0.0019786750827562516,
+                "coupling_strength": 0.00022973660168977835,
+                "gamma": 0.09207715014609798
+            },
+            "mean": 0.034892119841994355,
+            "std": 0.013505676569463826,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 8,
+            "params": {
+                "encoding_strength": 0.1429286640980278,
+                "coupling_strength": 6.407592776533479,
+                "gamma": 51.76513939716937
+            },
+            "mean": 0.08388734434556819,
+            "std": 0.0012185287400335088,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 9,
+            "params": {
+                "encoding_strength": 0.001133095331273364,
+                "coupling_strength": 0.0003215393196236628,
+                "gamma": 0.018955318281086493
+            },
+            "mean": 0.0,
+            "std": 0.0,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 10,
+            "params": {
+                "encoding_strength": 0.2820235916223062,
+                "coupling_strength": 0.004785748930602491,
+                "gamma": 37.37682254449565
+            },
+            "mean": 0.12805199748325208,
+            "std": 0.009578758989025792,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 11,
+            "params": {
+                "encoding_strength": 0.46275979711387194,
+                "coupling_strength": 0.16232646512464535,
+                "gamma": 0.551729780710432
+            },
+            "mean": 0.19959008134141082,
+            "std": 0.02190428692930606,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 12,
+            "params": {
+                "encoding_strength": 0.001277547654285263,
+                "coupling_strength": 0.03150765624033381,
+                "gamma": 0.0278050381776937
+            },
+            "mean": 0.0,
+            "std": 0.0,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 13,
+            "params": {
+                "encoding_strength": 0.013522115655546153,
+                "coupling_strength": 0.0008099972694914505,
+                "gamma": 0.728507152825349
+            },
+            "mean": 0.1938858296271689,
+            "std": 0.025722094888422715,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 14,
+            "params": {
+                "encoding_strength": 0.4883582269068916,
+                "coupling_strength": 0.9135341735510354,
+                "gamma": 17.32343361308477
+            },
+            "mean": 0.16696396644448486,
+            "std": 0.02322101523030026,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 15,
+            "params": {
+                "encoding_strength": 0.0036619205566830616,
+                "coupling_strength": 0.0287340882593819,
+                "gamma": 11.181893326786772
+            },
+            "mean": 0.2015542715509262,
+            "std": 0.01727192870321274,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 16,
+            "params": {
+                "encoding_strength": 0.0012063771163549875,
+                "coupling_strength": 0.0961342680253859,
+                "gamma": 0.9680558687350002
+            },
+            "mean": 0.056003008889856445,
+            "std": 0.02587618670461972,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 17,
+            "params": {
+                "encoding_strength": 0.051053282317060474,
+                "coupling_strength": 0.0031550355706868693,
+                "gamma": 63.88030067146466
+            },
+            "mean": 0.08333333326719608,
+            "std": 3.776315210049068e-11,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 18,
+            "params": {
+                "encoding_strength": 0.9230276273124335,
+                "coupling_strength": 1.6636512557260572,
+                "gamma": 5.1742767540275105
+            },
+            "mean": 0.20138572576893732,
+            "std": 0.026978473843512565,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 19,
+            "params": {
+                "encoding_strength": 0.0037263757454111834,
+                "coupling_strength": 0.0008627583772236714,
+                "gamma": 1.8857528288403744
+            },
+            "mean": 0.20271627735663106,
+            "std": 0.02230373774095072,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 20,
+            "params": {
+                "encoding_strength": 0.012225874865878814,
+                "coupling_strength": 0.06779432012968564,
+                "gamma": 0.013936563924202708
+            },
+            "mean": 0.0,
+            "std": 0.0,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 21,
+            "params": {
+                "encoding_strength": 0.004268100571579348,
+                "coupling_strength": 0.08479805947795609,
+                "gamma": 1.778883774139535
+            },
+            "mean": 0.14271785816355295,
+            "std": 0.0266277935850133,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 22,
+            "params": {
+                "encoding_strength": 0.008077807863137894,
+                "coupling_strength": 0.33686010655387144,
+                "gamma": 0.11388564367902866
+            },
+            "mean": 0.00873684257304048,
+            "std": 0.0082896377636169,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 23,
+            "params": {
+                "encoding_strength": 0.6363026747843993,
+                "coupling_strength": 0.4347472472790676,
+                "gamma": 1.070393284582248
+            },
+            "mean": 0.21428174733747474,
+            "std": 0.02620360278779834,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 24,
+            "params": {
+                "encoding_strength": 0.29689524422727165,
+                "coupling_strength": 0.04405671024715411,
+                "gamma": 0.02443729851997424
+            },
+            "mean": 0.0004637801836975033,
+            "std": 0.0005965892073779319,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 25,
+            "params": {
+                "encoding_strength": 0.0071320958081203135,
+                "coupling_strength": 7.621790919339495,
+                "gamma": 0.17296818487188775
+            },
+            "mean": 0.0,
+            "std": 0.0,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 26,
+            "params": {
+                "encoding_strength": 0.08311519926042248,
+                "coupling_strength": 1.296522579230339,
+                "gamma": 23.0848375521334
+            },
+            "mean": 0.09916696349386667,
+            "std": 0.014634139353762989,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 27,
+            "params": {
+                "encoding_strength": 0.8931911242166017,
+                "coupling_strength": 0.007668330517296215,
+                "gamma": 4.213401908574831
+            },
+            "mean": 0.1768847544389134,
+            "std": 0.013975331216007678,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 28,
+            "params": {
+                "encoding_strength": 0.01543802509281914,
+                "coupling_strength": 0.06766991120640187,
+                "gamma": 18.155947854596484
+            },
+            "mean": 0.11830863282853081,
+            "std": 0.01855836627022856,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 29,
+            "params": {
+                "encoding_strength": 0.40469854327295474,
+                "coupling_strength": 0.00014480741329253268,
+                "gamma": 0.9425580826536516
+            },
+            "mean": 0.203314545200608,
+            "std": 0.014567526733715825,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 30,
+            "params": {
+                "encoding_strength": 0.0315564263360525,
+                "coupling_strength": 3.2205323412624067,
+                "gamma": 0.4089088981115939
+            },
+            "mean": 0.03224961745985244,
+            "std": 0.0207409976209789,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 31,
+            "params": {
+                "encoding_strength": 0.15528198713021205,
+                "coupling_strength": 0.00010731374243977099,
+                "gamma": 1.7631111382201268
+            },
+            "mean": 0.20596147487265476,
+            "std": 0.019321912072602844,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 32,
+            "params": {
+                "encoding_strength": 0.18137147348632104,
+                "coupling_strength": 0.00013299998712303245,
+                "gamma": 0.3537159279623143
+            },
+            "mean": 0.18454410742727753,
+            "std": 0.01707103738812794,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 33,
+            "params": {
+                "encoding_strength": 0.10624265555825332,
+                "coupling_strength": 0.0018691226388753888,
+                "gamma": 9.214333459395736
+            },
+            "mean": 0.17427807662421615,
+            "std": 0.017450398250485135,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 34,
+            "params": {
+                "encoding_strength": 0.3323220172026354,
+                "coupling_strength": 0.42241603081928863,
+                "gamma": 1.9454958907463338
+            },
+            "mean": 0.21481472024036793,
+            "std": 0.02638281469436812,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 35,
+            "params": {
+                "encoding_strength": 0.20303682667583647,
+                "coupling_strength": 0.37481460687231166,
+                "gamma": 2.7888215985499913
+            },
+            "mean": 0.21975350174361333,
+            "std": 0.026062208119768046,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 36,
+            "params": {
+                "encoding_strength": 0.2210182309127001,
+                "coupling_strength": 0.37949942369026274,
+                "gamma": 2.9823647098067396
+            },
+            "mean": 0.2240845689174888,
+            "std": 0.026458036509201137,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 37,
+            "params": {
+                "encoding_strength": 0.22277295384986182,
+                "coupling_strength": 0.35085501199365665,
+                "gamma": 2.815656095858694
+            },
+            "mean": 0.22108937125568895,
+            "std": 0.024874798140953367,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 38,
+            "params": {
+                "encoding_strength": 0.265024615304768,
+                "coupling_strength": 0.2108933577217819,
+                "gamma": 3.1962015486178155
+            },
+            "mean": 0.22039175496911909,
+            "std": 0.015853454813265878,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 39,
+            "params": {
+                "encoding_strength": 0.2174188099228905,
+                "coupling_strength": 0.19861638138528961,
+                "gamma": 3.148269242219534
+            },
+            "mean": 0.22016388211651394,
+            "std": 0.01456101205562584,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 40,
+            "params": {
+                "encoding_strength": 0.06769064544920246,
+                "coupling_strength": 0.14066692922431437,
+                "gamma": 9.007647198115649
+            },
+            "mean": 0.20180407278858178,
+            "std": 0.024721985696184796,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 41,
+            "params": {
+                "encoding_strength": 0.2153865545726101,
+                "coupling_strength": 0.2624410962541992,
+                "gamma": 3.3411526409316603
+            },
+            "mean": 0.22479575254477827,
+            "std": 0.01917752296576685,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 42,
+            "params": {
+                "encoding_strength": 0.11596772692304887,
+                "coupling_strength": 0.2179993228798801,
+                "gamma": 3.450061678895998
+            },
+            "mean": 0.22198532807732185,
+            "std": 0.014899631690509582,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 43,
+            "params": {
+                "encoding_strength": 0.11399688846246736,
+                "coupling_strength": 2.3245064952318844,
+                "gamma": 7.165940578233277
+            },
+            "mean": 0.23053303860107702,
+            "std": 0.023564435306682483,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 44,
+            "params": {
+                "encoding_strength": 0.10930370816226215,
+                "coupling_strength": 1.8073706164402663,
+                "gamma": 7.2725598751422815
+            },
+            "mean": 0.22870674582005884,
+            "std": 0.030282584474824775,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 45,
+            "params": {
+                "encoding_strength": 0.11246371908069254,
+                "coupling_strength": 2.724856427182932,
+                "gamma": 5.8834804286646545
+            },
+            "mean": 0.2377378704279906,
+            "std": 0.02336798414176758,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 46,
+            "params": {
+                "encoding_strength": 0.031405250746080936,
+                "coupling_strength": 2.7498189117453067,
+                "gamma": 6.1318023939474156
+            },
+            "mean": 0.22777618221400192,
+            "std": 0.024975079061627808,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 47,
+            "params": {
+                "encoding_strength": 0.024919833974340475,
+                "coupling_strength": 3.3431394948210342,
+                "gamma": 35.59357421331408
+            },
+            "mean": 0.08359284756601842,
+            "std": 0.000778543186081273,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 48,
+            "params": {
+                "encoding_strength": 0.04805611872596366,
+                "coupling_strength": 2.646475550893048,
+                "gamma": 97.32322277349544
+            },
+            "mean": 0.08333333332223172,
+            "std": 6.372328138388789e-12,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 49,
+            "params": {
+                "encoding_strength": 0.06588887059159433,
+                "coupling_strength": 0.7725035900909968,
+                "gamma": 8.392322104973433
+            },
+            "mean": 0.22260489804627684,
+            "std": 0.03943098121690243,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 50,
+            "params": {
+                "encoding_strength": 0.03443653811379489,
+                "coupling_strength": 2.0051124803304785,
+                "gamma": 5.802062206162802
+            },
+            "mean": 0.22812441755099733,
+            "std": 0.026563953705112095,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 51,
+            "params": {
+                "encoding_strength": 0.03504754226509655,
+                "coupling_strength": 4.218126878242567,
+                "gamma": 14.942860930811982
+            },
+            "mean": 0.1590063717293579,
+            "std": 0.019578873652881152,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 52,
+            "params": {
+                "encoding_strength": 0.023529125614713205,
+                "coupling_strength": 1.7793363901146082,
+                "gamma": 6.008196292296147
+            },
+            "mean": 0.2216431276567455,
+            "std": 0.028243724847719538,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 53,
+            "params": {
+                "encoding_strength": 0.10495822360312834,
+                "coupling_strength": 2.037168069920336,
+                "gamma": 6.230324805253028
+            },
+            "mean": 0.23618125620156055,
+            "std": 0.024838292123961842,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 54,
+            "params": {
+                "encoding_strength": 0.09932145892744493,
+                "coupling_strength": 5.927683779848072,
+                "gamma": 5.80744173632795
+            },
+            "mean": 0.20595877894708092,
+            "std": 0.020814287226178636,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 55,
+            "params": {
+                "encoding_strength": 0.046447173671123325,
+                "coupling_strength": 2.0883130460406325,
+                "gamma": 23.01766035284828
+            },
+            "mean": 0.0910378140844549,
+            "std": 0.011836606903567325,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 56,
+            "params": {
+                "encoding_strength": 0.14259425629384048,
+                "coupling_strength": 1.0146946530465568,
+                "gamma": 12.749390637458074
+            },
+            "mean": 0.18147105726071674,
+            "std": 0.024664560257137327,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 57,
+            "params": {
+                "encoding_strength": 0.06552192781498556,
+                "coupling_strength": 4.818740308603684,
+                "gamma": 7.564852517429863
+            },
+            "mean": 0.22903635352411325,
+            "std": 0.013365183030589799,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 58,
+            "params": {
+                "encoding_strength": 0.07335022533627852,
+                "coupling_strength": 9.58058422485278,
+                "gamma": 31.59769636532091
+            },
+            "mean": 0.0867072992107064,
+            "std": 0.005480261550190927,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 59,
+            "params": {
+                "encoding_strength": 0.05598874433099835,
+                "coupling_strength": 4.6840651246139675,
+                "gamma": 8.067443680763848
+            },
+            "mean": 0.2286964612258743,
+            "std": 0.012953858797243221,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 60,
+            "params": {
+                "encoding_strength": 0.058625329339924565,
+                "coupling_strength": 5.1223245970512234,
+                "gamma": 1.332285647749425
+            },
+            "mean": 0.13240817450412332,
+            "std": 0.02449264767394462,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 61,
+            "params": {
+                "encoding_strength": 0.0915203854081,
+                "coupling_strength": 0.6121068325917284,
+                "gamma": 7.573163967409854
+            },
+            "mean": 0.22515654067593646,
+            "std": 0.03627541825447176,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 62,
+            "params": {
+                "encoding_strength": 0.11890268865598418,
+                "coupling_strength": 1.4907343126939765,
+                "gamma": 11.664247421033858
+            },
+            "mean": 0.19799215316547808,
+            "std": 0.026986231165139547,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 63,
+            "params": {
+                "encoding_strength": 0.038824093639559895,
+                "coupling_strength": 4.8104277166072835,
+                "gamma": 5.091856644016784
+            },
+            "mean": 0.19866326490861225,
+            "std": 0.022433500121222295,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 64,
+            "params": {
+                "encoding_strength": 0.1413768821610449,
+                "coupling_strength": 2.3305002663499694,
+                "gamma": 23.789530397037616
+            },
+            "mean": 0.10267762184704317,
+            "std": 0.0144684552111937,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 65,
+            "params": {
+                "encoding_strength": 0.08828994064495037,
+                "coupling_strength": 1.2664584185335552,
+                "gamma": 4.766780978081431
+            },
+            "mean": 0.2391121873040305,
+            "std": 0.03244612245633493,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 66,
+            "params": {
+                "encoding_strength": 0.07840389099336084,
+                "coupling_strength": 0.658040039754426,
+                "gamma": 4.265135843204463
+            },
+            "mean": 0.23586539215891097,
+            "std": 0.03652092848567754,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 67,
+            "params": {
+                "encoding_strength": 0.08452292193579053,
+                "coupling_strength": 0.6435358115257475,
+                "gamma": 4.519790909212297
+            },
+            "mean": 0.23741844046787758,
+            "std": 0.03646343843085929,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 68,
+            "params": {
+                "encoding_strength": 0.08887835742260526,
+                "coupling_strength": 0.6195430598088495,
+                "gamma": 4.290835193397583
+            },
+            "mean": 0.23788342327216552,
+            "std": 0.03603115338758247,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 69,
+            "params": {
+                "encoding_strength": 0.08290137207874594,
+                "coupling_strength": 0.6904366002454324,
+                "gamma": 4.574364760012933
+            },
+            "mean": 0.2363579835361075,
+            "std": 0.037246565684319395,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 70,
+            "params": {
+                "encoding_strength": 0.08724957450979758,
+                "coupling_strength": 0.5777217512446543,
+                "gamma": 4.020098643660788
+            },
+            "mean": 0.23652041938332177,
+            "std": 0.03524284608282406,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 71,
+            "params": {
+                "encoding_strength": 0.08662519044365405,
+                "coupling_strength": 0.6095848848924227,
+                "gamma": 4.313041857182581
+            },
+            "mean": 0.23800364609138375,
+            "std": 0.03577961782525118,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 72,
+            "params": {
+                "encoding_strength": 0.1659547995887066,
+                "coupling_strength": 1.181567280957891,
+                "gamma": 2.1318450493220085
+            },
+            "mean": 0.20664341786394766,
+            "std": 0.03132241718334516,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 73,
+            "params": {
+                "encoding_strength": 0.08379472380007717,
+                "coupling_strength": 0.5706169855047767,
+                "gamma": 1.4238937140642465
+            },
+            "mean": 0.1659529690317694,
+            "std": 0.03190412275622726,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 74,
+            "params": {
+                "encoding_strength": 0.04351557039586847,
+                "coupling_strength": 0.9146171087361639,
+                "gamma": 3.9375278082625456
+            },
+            "mean": 0.2216572774068049,
+            "std": 0.03633570676687956,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 75,
+            "params": {
+                "encoding_strength": 0.09056722240953188,
+                "coupling_strength": 0.11938400097654098,
+                "gamma": 2.3654357167194875
+            },
+            "mean": 0.20707047122651767,
+            "std": 0.016212093233208696,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 76,
+            "params": {
+                "encoding_strength": 0.12380122222426117,
+                "coupling_strength": 0.517463663284912,
+                "gamma": 0.6227726103949769
+            },
+            "mean": 0.15018499038407415,
+            "std": 0.03712266260045461,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 77,
+            "params": {
+                "encoding_strength": 0.056534441449961705,
+                "coupling_strength": 1.3286465586260847,
+                "gamma": 4.404445872199137
+            },
+            "mean": 0.23254370697065566,
+            "std": 0.031286997688524595,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 78,
+            "params": {
+                "encoding_strength": 0.131276266684652,
+                "coupling_strength": 0.26807890684590385,
+                "gamma": 1.2824670902304274
+            },
+            "mean": 0.18397567631305853,
+            "std": 0.02511975339179132,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 79,
+            "params": {
+                "encoding_strength": 0.17379512084715573,
+                "coupling_strength": 0.015360636218503147,
+                "gamma": 9.792594163097062
+            },
+            "mean": 0.1609711888585405,
+            "std": 0.015260898643491507,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 80,
+            "params": {
+                "encoding_strength": 0.08154918955469803,
+                "coupling_strength": 0.8462992259359434,
+                "gamma": 13.73474058765754
+            },
+            "mean": 0.17444344009909868,
+            "std": 0.020775933070264183,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 81,
+            "params": {
+                "encoding_strength": 0.07401279680290823,
+                "coupling_strength": 0.7523238069092003,
+                "gamma": 4.14714153213532
+            },
+            "mean": 0.23421971634473088,
+            "std": 0.03751868672334407,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 82,
+            "params": {
+                "encoding_strength": 0.10155413202598991,
+                "coupling_strength": 0.5097984923782998,
+                "gamma": 4.3616668948326245
+            },
+            "mean": 0.241062893087445,
+            "std": 0.03317429966631745,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 83,
+            "params": {
+                "encoding_strength": 0.09726778731050412,
+                "coupling_strength": 0.468902328420959,
+                "gamma": 2.548883710512309
+            },
+            "mean": 0.20269665828268163,
+            "std": 0.028071924336548947,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 84,
+            "params": {
+                "encoding_strength": 0.14459547694932864,
+                "coupling_strength": 1.2451238398662143,
+                "gamma": 4.810357897231105
+            },
+            "mean": 0.23909133473400906,
+            "std": 0.035468972957754315,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 85,
+            "params": {
+                "encoding_strength": 0.15540568973090374,
+                "coupling_strength": 0.2894266858035508,
+                "gamma": 1.744883972105923
+            },
+            "mean": 0.1987919626332379,
+            "std": 0.02181244812925561,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 86,
+            "params": {
+                "encoding_strength": 0.1840092619740004,
+                "coupling_strength": 1.2300672531030932,
+                "gamma": 0.05861290716442212
+            },
+            "mean": 0.03716776244390807,
+            "std": 0.021024513165783038,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 87,
+            "params": {
+                "encoding_strength": 0.349443832388833,
+                "coupling_strength": 0.15995495347472466,
+                "gamma": 5.072562607217713
+            },
+            "mean": 0.20047043740934903,
+            "std": 0.01934198860380994,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 88,
+            "params": {
+                "encoding_strength": 0.24907557475018968,
+                "coupling_strength": 1.0354621946215985,
+                "gamma": 3.647884010439383
+            },
+            "mean": 0.237938231714109,
+            "std": 0.03139887057319598,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 89,
+            "params": {
+                "encoding_strength": 0.5210351187618831,
+                "coupling_strength": 3.563370208264065,
+                "gamma": 3.651817746421355
+            },
+            "mean": 0.2116180085138823,
+            "std": 0.014074791566257516,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 90,
+            "params": {
+                "encoding_strength": 0.29526151400089584,
+                "coupling_strength": 1.0114677715452487,
+                "gamma": 10.899678190289631
+            },
+            "mean": 0.18275445549901373,
+            "std": 0.02532068251622962,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 91,
+            "params": {
+                "encoding_strength": 0.2576859903731269,
+                "coupling_strength": 0.5137392474308465,
+                "gamma": 2.2335591167535997
+            },
+            "mean": 0.21477959868462806,
+            "std": 0.028715367665870472,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 92,
+            "params": {
+                "encoding_strength": 0.13998801325199084,
+                "coupling_strength": 0.7232306560197191,
+                "gamma": 2.9763858272590857
+            },
+            "mean": 0.22365910716338805,
+            "std": 0.035009938317523824,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 93,
+            "params": {
+                "encoding_strength": 0.05811219067026033,
+                "coupling_strength": 1.4959251874949653,
+                "gamma": 4.580730880413468
+            },
+            "mean": 0.23295082049353705,
+            "std": 0.029903703662072834,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 94,
+            "params": {
+                "encoding_strength": 0.09492177405635795,
+                "coupling_strength": 0.3345993776505581,
+                "gamma": 6.480515039506595
+            },
+            "mean": 0.23068241460617683,
+            "std": 0.02957133934893472,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 95,
+            "params": {
+                "encoding_strength": 0.19192799428185472,
+                "coupling_strength": 0.9181146271802292,
+                "gamma": 3.7297911326201416
+            },
+            "mean": 0.23926749042029805,
+            "std": 0.034140472127687976,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 96,
+            "params": {
+                "encoding_strength": 0.24678280829380292,
+                "coupling_strength": 0.9958436762370877,
+                "gamma": 1.5527912440589817
+            },
+            "mean": 0.20665351936857573,
+            "std": 0.03665916335028673,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 97,
+            "params": {
+                "encoding_strength": 0.1972373855255404,
+                "coupling_strength": 0.4124728116242195,
+                "gamma": 3.4675846537327555
+            },
+            "mean": 0.2315715261878632,
+            "std": 0.028178900183524442,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 98,
+            "params": {
+                "encoding_strength": 0.1611542178683653,
+                "coupling_strength": 7.030518016678403,
+                "gamma": 18.195252946036376
+            },
+            "mean": 0.16486182379393374,
+            "std": 0.018709907824192094,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 99,
+            "params": {
+                "encoding_strength": 0.3565259844781489,
+                "coupling_strength": 2.80640797231374,
+                "gamma": 1.1474339432022795
+            },
+            "mean": 0.19192028447257606,
+            "std": 0.03354273779718304,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 100,
+            "params": {
+                "encoding_strength": 0.11958253924295485,
+                "coupling_strength": 1.4209203864424296,
+                "gamma": 2.647723813328878
+            },
+            "mean": 0.2066938038585747,
+            "std": 0.029482812941629872,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 101,
+            "params": {
+                "encoding_strength": 0.06975212239368496,
+                "coupling_strength": 0.6396266672711298,
+                "gamma": 5.492588851018383
+            },
+            "mean": 0.23462701527657992,
+            "std": 0.03567296804139169,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 102,
+            "params": {
+                "encoding_strength": 0.12907895282503778,
+                "coupling_strength": 0.8290471788907674,
+                "gamma": 4.705882381256619
+            },
+            "mean": 0.23674125658633272,
+            "std": 0.040024415333777735,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 103,
+            "params": {
+                "encoding_strength": 0.10471752516860189,
+                "coupling_strength": 1.1203716292658805,
+                "gamma": 9.474448678047974
+            },
+            "mean": 0.20925761600779547,
+            "std": 0.033900581556913605,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 104,
+            "params": {
+                "encoding_strength": 0.42507622099268566,
+                "coupling_strength": 0.81406872041459,
+                "gamma": 3.706236888368803
+            },
+            "mean": 0.22825264277418156,
+            "std": 0.03387403290575551,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 105,
+            "params": {
+                "encoding_strength": 0.1357248228162858,
+                "coupling_strength": 1.826008917685665,
+                "gamma": 2.059930440749404
+            },
+            "mean": 0.19000956922203024,
+            "std": 0.020795402330845356,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 106,
+            "params": {
+                "encoding_strength": 0.23259191114563535,
+                "coupling_strength": 0.23919859357806528,
+                "gamma": 6.937354579205677
+            },
+            "mean": 0.19750084270946572,
+            "std": 0.026971718672606188,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 107,
+            "params": {
+                "encoding_strength": 0.18895348023747283,
+                "coupling_strength": 0.4853397387120499,
+                "gamma": 4.788117892384414
+            },
+            "mean": 0.23435583810640187,
+            "std": 0.03368942988802533,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 108,
+            "params": {
+                "encoding_strength": 0.05026718407761068,
+                "coupling_strength": 1.7217872732027923,
+                "gamma": 2.926461791578841
+            },
+            "mean": 0.1883908477828149,
+            "std": 0.031792874324169815,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 109,
+            "params": {
+                "encoding_strength": 0.15774073239188954,
+                "coupling_strength": 0.30933199133949757,
+                "gamma": 8.362999558498936
+            },
+            "mean": 0.19630347619672378,
+            "std": 0.028420356802503665,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 110,
+            "params": {
+                "encoding_strength": 0.12374544548474563,
+                "coupling_strength": 3.658087537812568,
+                "gamma": 5.441077340043548
+            },
+            "mean": 0.22989338995115957,
+            "std": 0.015661944867377656,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 111,
+            "params": {
+                "encoding_strength": 0.089165236117386,
+                "coupling_strength": 0.8781466485670943,
+                "gamma": 4.186447039480754
+            },
+            "mean": 0.23706237454875803,
+            "std": 0.03788096877911399,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 112,
+            "params": {
+                "encoding_strength": 0.08960853020708076,
+                "coupling_strength": 0.8652124669479345,
+                "gamma": 3.691882627452908
+            },
+            "mean": 0.23217172035536002,
+            "std": 0.036340110008425075,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 113,
+            "params": {
+                "encoding_strength": 0.10957636475900273,
+                "coupling_strength": 1.1755950777099662,
+                "gamma": 6.442880712307727
+            },
+            "mean": 0.2286327338348757,
+            "std": 0.042263637007372144,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 114,
+            "params": {
+                "encoding_strength": 0.062220914535958176,
+                "coupling_strength": 0.5779079706984908,
+                "gamma": 2.360391309180877
+            },
+            "mean": 0.18932804427482156,
+            "std": 0.0295704600766886,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 115,
+            "params": {
+                "encoding_strength": 0.06895070418755057,
+                "coupling_strength": 0.41646130007962273,
+                "gamma": 4.051218694221625
+            },
+            "mean": 0.234428109080674,
+            "std": 0.027313386642454127,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 116,
+            "params": {
+                "encoding_strength": 0.10225264350243167,
+                "coupling_strength": 1.4420355845452353,
+                "gamma": 0.8522130154863052
+            },
+            "mean": 0.14416545137575937,
+            "std": 0.035449920271518595,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 117,
+            "params": {
+                "encoding_strength": 0.04180900257752372,
+                "coupling_strength": 2.4262802586052383,
+                "gamma": 3.083011150143493
+            },
+            "mean": 0.18464962109705957,
+            "std": 0.021187109446933198,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 118,
+            "params": {
+                "encoding_strength": 0.08145388032481211,
+                "coupling_strength": 0.1818874312208855,
+                "gamma": 10.813792421424841
+            },
+            "mean": 0.17656937834822178,
+            "std": 0.022765889623225594,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 119,
+            "params": {
+                "encoding_strength": 0.13820406355150558,
+                "coupling_strength": 0.9657142512682859,
+                "gamma": 4.972814221726663
+            },
+            "mean": 0.23480179498847353,
+            "std": 0.04071930800099832,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 120,
+            "params": {
+                "encoding_strength": 0.17185341173681135,
+                "coupling_strength": 0.6793324025123454,
+                "gamma": 1.608589739916517
+            },
+            "mean": 0.19519879235612198,
+            "std": 0.032830707285295586,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 121,
+            "params": {
+                "encoding_strength": 0.08075492733316092,
+                "coupling_strength": 0.5898058730186649,
+                "gamma": 4.460075303707747
+            },
+            "mean": 0.23831341191580518,
+            "std": 0.035071117372858035,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 122,
+            "params": {
+                "encoding_strength": 0.07520230652579933,
+                "coupling_strength": 0.5442413029122896,
+                "gamma": 6.5687078111189985
+            },
+            "mean": 0.23406825988625696,
+            "std": 0.035171303274095594,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 123,
+            "params": {
+                "encoding_strength": 0.09335931304946164,
+                "coupling_strength": 0.35782357418416794,
+                "gamma": 3.596868774069824
+            },
+            "mean": 0.22733623419725252,
+            "std": 0.021958067593991774,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 124,
+            "params": {
+                "encoding_strength": 0.12180581268022533,
+                "coupling_strength": 0.046486770458023435,
+                "gamma": 7.960972863651356
+            },
+            "mean": 0.18757041274024272,
+            "std": 0.01726664097709887,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 125,
+            "params": {
+                "encoding_strength": 0.001857676417149762,
+                "coupling_strength": 0.8325492247444524,
+                "gamma": 2.589458000526999
+            },
+            "mean": 0.09045071575372911,
+            "std": 0.019480203028750448,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 126,
+            "params": {
+                "encoding_strength": 0.10997768021558575,
+                "coupling_strength": 1.1425272074447352,
+                "gamma": 4.491655397800045
+            },
+            "mean": 0.2402323950081217,
+            "std": 0.0346130242645976,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 127,
+            "params": {
+                "encoding_strength": 0.11006938836943428,
+                "coupling_strength": 1.1806582835753037,
+                "gamma": 5.345053236447078
+            },
+            "mean": 0.2354913871096973,
+            "std": 0.03724100667051755,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 128,
+            "params": {
+                "encoding_strength": 0.214489007244609,
+                "coupling_strength": 1.919600586791484,
+                "gamma": 4.662353418771765
+            },
+            "mean": 0.23586617922464237,
+            "std": 0.02794376465161308,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 129,
+            "params": {
+                "encoding_strength": 0.14949492186689076,
+                "coupling_strength": 1.5938571253968206,
+                "gamma": 3.178995040719858
+            },
+            "mean": 0.21872392040467314,
+            "std": 0.0271660723983257,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 130,
+            "params": {
+                "encoding_strength": 0.05294841088564744,
+                "coupling_strength": 2.7768694819859077,
+                "gamma": 1.851486692720732
+            },
+            "mean": 0.15682454202562296,
+            "std": 0.03246426870700043,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 131,
+            "params": {
+                "encoding_strength": 0.08088972900395212,
+                "coupling_strength": 0.448731790087784,
+                "gamma": 4.185432340373483
+            },
+            "mean": 0.2391633302067381,
+            "std": 0.029506285873078675,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 132,
+            "params": {
+                "encoding_strength": 0.07303190927889439,
+                "coupling_strength": 0.7283803553795646,
+                "gamma": 7.070045781880884
+            },
+            "mean": 0.2296052099044695,
+            "std": 0.040078218036251334,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 133,
+            "params": {
+                "encoding_strength": 0.12612844606628176,
+                "coupling_strength": 0.4269674656856722,
+                "gamma": 5.904480099373081
+            },
+            "mean": 0.23179759546836515,
+            "std": 0.03154492176573997,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 134,
+            "params": {
+                "encoding_strength": 0.09490683023897646,
+                "coupling_strength": 1.0142004982243913,
+                "gamma": 4.304138222866449
+            },
+            "mean": 0.23870550563252163,
+            "std": 0.03631650854692107,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 135,
+            "params": {
+                "encoding_strength": 0.06368620041141858,
+                "coupling_strength": 1.118040294308986,
+                "gamma": 4.131701265649546
+            },
+            "mean": 0.23250115751952408,
+            "std": 0.03260772419370906,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 136,
+            "params": {
+                "encoding_strength": 0.09951021065385116,
+                "coupling_strength": 0.9927232683427487,
+                "gamma": 2.6929451736074577
+            },
+            "mean": 0.21058079752949074,
+            "std": 0.030348303591588337,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 137,
+            "params": {
+                "encoding_strength": 0.07492956756786384,
+                "coupling_strength": 1.4201882742656367,
+                "gamma": 9.472588819255051
+            },
+            "mean": 0.21514152391862665,
+            "std": 0.036301328921412114,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 138,
+            "params": {
+                "encoding_strength": 0.08882035350887511,
+                "coupling_strength": 0.020009746530710238,
+                "gamma": 3.582041921041318
+            },
+            "mean": 0.21431526138684917,
+            "std": 0.014865991041281773,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 139,
+            "params": {
+                "encoding_strength": 0.28291449592793483,
+                "coupling_strength": 0.007491755021754655,
+                "gamma": 5.667173841219976
+            },
+            "mean": 0.19081949452194819,
+            "std": 0.01567635322243783,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 140,
+            "params": {
+                "encoding_strength": 0.10768569169636863,
+                "coupling_strength": 0.580492021068158,
+                "gamma": 2.2130607840671406
+            },
+            "mean": 0.19762806892510146,
+            "std": 0.029816151697643,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 141,
+            "params": {
+                "encoding_strength": 0.13721417723029403,
+                "coupling_strength": 0.8443615350192192,
+                "gamma": 4.554069772904059
+            },
+            "mean": 0.23769749758473074,
+            "std": 0.039966250410201756,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 142,
+            "params": {
+                "encoding_strength": 0.17887489164819134,
+                "coupling_strength": 0.46763655906462626,
+                "gamma": 3.1720675078005947
+            },
+            "mean": 0.22686790395506043,
+            "std": 0.030020063816682402,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 143,
+            "params": {
+                "encoding_strength": 0.08234915305731913,
+                "coupling_strength": 0.6973373751863738,
+                "gamma": 4.238857408681526
+            },
+            "mean": 0.23604282015486336,
+            "std": 0.03727076136878213,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 144,
+            "params": {
+                "encoding_strength": 0.1468637970359378,
+                "coupling_strength": 0.9677770495412926,
+                "gamma": 5.053650232274135
+            },
+            "mean": 0.23390118740167148,
+            "std": 0.041256740147138676,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 145,
+            "params": {
+                "encoding_strength": 0.09675001978985191,
+                "coupling_strength": 1.2759437359688133,
+                "gamma": 7.501607947816264
+            },
+            "mean": 0.22455272416802535,
+            "std": 0.04201289892233477,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 146,
+            "params": {
+                "encoding_strength": 0.008051270006392205,
+                "coupling_strength": 2.310098263022848,
+                "gamma": 6.346067894630954
+            },
+            "mean": 0.20202915540718389,
+            "std": 0.024091853714460716,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 147,
+            "params": {
+                "encoding_strength": 0.06437996654042923,
+                "coupling_strength": 1.7715350753476784,
+                "gamma": 3.521890066540697
+            },
+            "mean": 0.21102257068535324,
+            "std": 0.02234391109115409,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 148,
+            "params": {
+                "encoding_strength": 0.11839661572414684,
+                "coupling_strength": 0.31753860003388784,
+                "gamma": 4.445123906925929
+            },
+            "mean": 0.2384304476815037,
+            "std": 0.02544148439240708,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 149,
+            "params": {
+                "encoding_strength": 0.11281655809969134,
+                "coupling_strength": 0.2842675763703073,
+                "gamma": 2.720137538140952
+            },
+            "mean": 0.21052653853521766,
+            "std": 0.020033595588954168,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 150,
+            "params": {
+                "encoding_strength": 0.1611415468924301,
+                "coupling_strength": 0.44726454437617996,
+                "gamma": 0.31107480535387166
+            },
+            "mean": 0.157759931907652,
+            "std": 0.040804567784131135,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 151,
+            "params": {
+                "encoding_strength": 0.19870418620259397,
+                "coupling_strength": 0.6774106149969376,
+                "gamma": 4.29680960010965
+            },
+            "mean": 0.2368799553801939,
+            "std": 0.039385906308796736,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 152,
+            "params": {
+                "encoding_strength": 0.08597121622342152,
+                "coupling_strength": 0.362592810622863,
+                "gamma": 5.210840046664241
+            },
+            "mean": 0.2392962467439094,
+            "std": 0.02894097794301124,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 153,
+            "params": {
+                "encoding_strength": 0.132059065276437,
+                "coupling_strength": 0.3205440265080692,
+                "gamma": 5.420689354280285
+            },
+            "mean": 0.23172039468583883,
+            "std": 0.027937357493666687,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 154,
+            "params": {
+                "encoding_strength": 0.11257562230538737,
+                "coupling_strength": 0.11338737716395601,
+                "gamma": 8.010865202439453
+            },
+            "mean": 0.19583776245053633,
+            "std": 0.020974597048478812,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 155,
+            "params": {
+                "encoding_strength": 0.09714444197174726,
+                "coupling_strength": 0.36864064853630485,
+                "gamma": 6.188139689913662
+            },
+            "mean": 0.23296292723386172,
+            "std": 0.030226041031968763,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 156,
+            "params": {
+                "encoding_strength": 0.08014926827676931,
+                "coupling_strength": 0.21061172756738883,
+                "gamma": 3.304560071195068
+            },
+            "mean": 0.21675926616099078,
+            "std": 0.0145639195362731,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 157,
+            "params": {
+                "encoding_strength": 0.05986553745258191,
+                "coupling_strength": 0.6037380176698067,
+                "gamma": 4.965660665560976
+            },
+            "mean": 0.23512728832720348,
+            "std": 0.034499828935648624,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 158,
+            "params": {
+                "encoding_strength": 0.2446449319042634,
+                "coupling_strength": 0.0020849467994801165,
+                "gamma": 3.991947574247793
+            },
+            "mean": 0.2068009039754989,
+            "std": 0.013739916198898363,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 159,
+            "params": {
+                "encoding_strength": 0.14071009124640768,
+                "coupling_strength": 0.5130438736863582,
+                "gamma": 2.818139635187147
+            },
+            "mean": 0.21590897308430373,
+            "std": 0.030534650829457968,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 160,
+            "params": {
+                "encoding_strength": 0.0494024464124277,
+                "coupling_strength": 0.8530383804504859,
+                "gamma": 6.909055649174276
+            },
+            "mean": 0.22935679074736282,
+            "std": 0.04134328514323589,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 161,
+            "params": {
+                "encoding_strength": 0.08623984115806746,
+                "coupling_strength": 0.0003617149867564703,
+                "gamma": 4.472485351209033
+            },
+            "mean": 0.21336075690626802,
+            "std": 0.01461233060746959,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 162,
+            "params": {
+                "encoding_strength": 0.07091376243680673,
+                "coupling_strength": 0.9962030856771401,
+                "gamma": 3.8093963899563548
+            },
+            "mean": 0.22893141194971012,
+            "std": 0.03368444098545189,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 163,
+            "params": {
+                "encoding_strength": 0.11600628306619319,
+                "coupling_strength": 0.8003265579986351,
+                "gamma": 5.183898665954507
+            },
+            "mean": 0.2336898730723694,
+            "std": 0.04023497509388615,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 164,
+            "params": {
+                "encoding_strength": 0.09187835876398148,
+                "coupling_strength": 1.2975302294093058,
+                "gamma": 3.165709280763521
+            },
+            "mean": 0.21346842438639008,
+            "std": 0.0274965366409444,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 165,
+            "params": {
+                "encoding_strength": 0.10166763238719886,
+                "coupling_strength": 0.539983192817317,
+                "gamma": 9.044814107891147
+            },
+            "mean": 0.20983808672251164,
+            "std": 0.030785969937991972,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 166,
+            "params": {
+                "encoding_strength": 0.08220572707685601,
+                "coupling_strength": 0.3997049414975975,
+                "gamma": 4.65650552503058
+            },
+            "mean": 0.2424736262030634,
+            "std": 0.02997296182346527,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 167,
+            "params": {
+                "encoding_strength": 0.11838612352018454,
+                "coupling_strength": 0.2459775367867417,
+                "gamma": 6.096263539664929
+            },
+            "mean": 0.22563833664691738,
+            "std": 0.026565267712971047,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 168,
+            "params": {
+                "encoding_strength": 0.07811252143498999,
+                "coupling_strength": 0.3506899680794026,
+                "gamma": 4.872277770428364
+            },
+            "mean": 0.24187322321595045,
+            "std": 0.028569066739079118,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 169,
+            "params": {
+                "encoding_strength": 0.07138779595853162,
+                "coupling_strength": 0.35993560177313344,
+                "gamma": 2.3552649039137847
+            },
+            "mean": 0.1933440015371532,
+            "std": 0.02373659718336141,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 170,
+            "params": {
+                "encoding_strength": 0.163547154523844,
+                "coupling_strength": 0.4258989254844912,
+                "gamma": 5.508718941886393
+            },
+            "mean": 0.23008686420447874,
+            "std": 0.0311230539356383,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 171,
+            "params": {
+                "encoding_strength": 0.08590558085857215,
+                "coupling_strength": 0.2833516920404327,
+                "gamma": 4.528191887720941
+            },
+            "mean": 0.23952056664688742,
+            "std": 0.024414369265644876,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 172,
+            "params": {
+                "encoding_strength": 0.07990019397103557,
+                "coupling_strength": 0.23297935398800412,
+                "gamma": 4.808041868244224
+            },
+            "mean": 0.23809310679388673,
+            "std": 0.023979438505825994,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 173,
+            "params": {
+                "encoding_strength": 0.0742723729901344,
+                "coupling_strength": 0.332006818808509,
+                "gamma": 3.546548061419519
+            },
+            "mean": 0.2223695344895776,
+            "std": 0.020143492580436854,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 174,
+            "params": {
+                "encoding_strength": 0.05502629388104477,
+                "coupling_strength": 0.15632454936272847,
+                "gamma": 6.978197813052974
+            },
+            "mean": 0.2269102785015275,
+            "std": 0.024463918930473685,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 175,
+            "params": {
+                "encoding_strength": 0.08354636193429302,
+                "coupling_strength": 0.26832492382728107,
+                "gamma": 3.837682907309478
+            },
+            "mean": 0.22687275533139095,
+            "std": 0.017230100877479806,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 176,
+            "params": {
+                "encoding_strength": 0.061460874567886764,
+                "coupling_strength": 0.2337057763837726,
+                "gamma": 5.69592735196739
+            },
+            "mean": 0.2361983973517235,
+            "std": 0.02574044757589233,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 177,
+            "params": {
+                "encoding_strength": 0.10129840496590739,
+                "coupling_strength": 0.4138028641349349,
+                "gamma": 4.865757676991907
+            },
+            "mean": 0.2406894142395052,
+            "std": 0.030496461805188214,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 178,
+            "params": {
+                "encoding_strength": 0.09524574532747296,
+                "coupling_strength": 0.18416575079464312,
+                "gamma": 4.414525129940662
+            },
+            "mean": 0.22998742236635464,
+            "std": 0.01735282767883109,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 179,
+            "params": {
+                "encoding_strength": 0.06522101458262529,
+                "coupling_strength": 0.2981435513995799,
+                "gamma": 3.008351270914942
+            },
+            "mean": 0.207608413416083,
+            "std": 0.019915975013006907,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 180,
+            "params": {
+                "encoding_strength": 0.07964511529727045,
+                "coupling_strength": 0.389943127105113,
+                "gamma": 5.210556685838212
+            },
+            "mean": 0.2399560201503336,
+            "std": 0.02953472489658491,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 181,
+            "params": {
+                "encoding_strength": 0.07825748112684382,
+                "coupling_strength": 0.39918526209305993,
+                "gamma": 5.155586551502083
+            },
+            "mean": 0.24030322845071855,
+            "std": 0.029716671556673117,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 182,
+            "params": {
+                "encoding_strength": 0.07616375684311744,
+                "coupling_strength": 0.39786960094380436,
+                "gamma": 4.989352232055791
+            },
+            "mean": 0.24134905859425318,
+            "std": 0.02973793475528158,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 183,
+            "params": {
+                "encoding_strength": 0.07920401730009209,
+                "coupling_strength": 0.34663765092686966,
+                "gamma": 4.782184461829215
+            },
+            "mean": 0.24215521854312555,
+            "std": 0.028412812692139723,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 184,
+            "params": {
+                "encoding_strength": 0.07990461795341458,
+                "coupling_strength": 0.20790101922791132,
+                "gamma": 7.985526991567205
+            },
+            "mean": 0.2154587608094743,
+            "std": 0.027469473872634462,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 185,
+            "params": {
+                "encoding_strength": 0.06905030943412653,
+                "coupling_strength": 0.3972141599457072,
+                "gamma": 5.003374449023755
+            },
+            "mean": 0.2414495525547391,
+            "std": 0.029482146469909737,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 186,
+            "params": {
+                "encoding_strength": 0.06798455129008142,
+                "coupling_strength": 0.43964684940153503,
+                "gamma": 6.70703082518943
+            },
+            "mean": 0.23489308867082617,
+            "std": 0.03241908519167324,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 187,
+            "params": {
+                "encoding_strength": 0.10366815183148946,
+                "coupling_strength": 0.33679943623249137,
+                "gamma": 5.766988150267934
+            },
+            "mean": 0.23381198860102442,
+            "std": 0.028949207259715455,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 188,
+            "params": {
+                "encoding_strength": 0.05442684355086492,
+                "coupling_strength": 0.4153420639425559,
+                "gamma": 5.2745308072087855
+            },
+            "mean": 0.23923475984340645,
+            "std": 0.028613512142076223,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 189,
+            "params": {
+                "encoding_strength": 0.04874809091122736,
+                "coupling_strength": 0.3916428831429497,
+                "gamma": 5.289839946353073
+            },
+            "mean": 0.23902085661479394,
+            "std": 0.027704524746600342,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 190,
+            "params": {
+                "encoding_strength": 0.043363658538711915,
+                "coupling_strength": 0.40820553991389136,
+                "gamma": 8.750322202887666
+            },
+            "mean": 0.22808221563282113,
+            "std": 0.032366269396338423,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 191,
+            "params": {
+                "encoding_strength": 0.05585535878531112,
+                "coupling_strength": 0.2840752149184363,
+                "gamma": 5.0792280481836585
+            },
+            "mean": 0.2415592149767983,
+            "std": 0.02639295410660684,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 192,
+            "params": {
+                "encoding_strength": 0.048590235229737995,
+                "coupling_strength": 0.3865151374364059,
+                "gamma": 5.57887674636305
+            },
+            "mean": 0.23825517850864042,
+            "std": 0.027441277388132512,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 193,
+            "params": {
+                "encoding_strength": 0.05503056423801685,
+                "coupling_strength": 0.27307288550695896,
+                "gamma": 7.0381030771104625
+            },
+            "mean": 0.23330632500708,
+            "std": 0.028619004640598394,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 194,
+            "params": {
+                "encoding_strength": 0.03856613126647081,
+                "coupling_strength": 0.4886256765354808,
+                "gamma": 5.15391482070351
+            },
+            "mean": 0.23333327003334933,
+            "std": 0.030242842013923077,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 195,
+            "params": {
+                "encoding_strength": 0.05816840937455158,
+                "coupling_strength": 0.3630918253287359,
+                "gamma": 6.383137056832371
+            },
+            "mean": 0.23683090495216455,
+            "std": 0.029616657174395964,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 196,
+            "params": {
+                "encoding_strength": 0.06460504678522665,
+                "coupling_strength": 0.13234500914932804,
+                "gamma": 10.423126153086798
+            },
+            "mean": 0.18280956004363907,
+            "std": 0.022736801412162718,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 197,
+            "params": {
+                "encoding_strength": 0.03033670454970714,
+                "coupling_strength": 0.2732504905922183,
+                "gamma": 3.5932812540321777
+            },
+            "mean": 0.2072393464159083,
+            "std": 0.016428166765514732,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 198,
+            "params": {
+                "encoding_strength": 0.0692851163744479,
+                "coupling_strength": 0.47897433128423,
+                "gamma": 5.197704437152769
+            },
+            "mean": 0.23919798606923903,
+            "std": 0.03118146795838435,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 199,
+            "params": {
+                "encoding_strength": 0.04842606992606554,
+                "coupling_strength": 0.42635600640511706,
+                "gamma": 5.2344159946763185
+            },
+            "mean": 0.23827469348303953,
+            "std": 0.02851276834111606,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 200,
+            "params": {
+                "encoding_strength": 0.07130279343354404,
+                "coupling_strength": 0.18215355423763888,
+                "gamma": 7.725755597287948
+            },
+            "mean": 0.21910058232990695,
+            "std": 0.02627880888750731,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 201,
+            "params": {
+                "encoding_strength": 0.055007658617175804,
+                "coupling_strength": 0.5378259753339809,
+                "gamma": 4.9545606482811575
+            },
+            "mean": 0.23665373449312738,
+            "std": 0.03256185443433544,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 202,
+            "params": {
+                "encoding_strength": 0.06421373666693801,
+                "coupling_strength": 0.31909848520721296,
+                "gamma": 3.9751053789152455
+            },
+            "mean": 0.2286859879367021,
+            "std": 0.01953376442902093,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 203,
+            "params": {
+                "encoding_strength": 0.08058018878701403,
+                "coupling_strength": 0.43035920009659867,
+                "gamma": 6.052738092783596
+            },
+            "mean": 0.23626120727367855,
+            "std": 0.03158758200462663,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 204,
+            "params": {
+                "encoding_strength": 0.07286891968218606,
+                "coupling_strength": 0.5122259138794092,
+                "gamma": 4.669985515308599
+            },
+            "mean": 0.24041437620032952,
+            "std": 0.03264714811716091,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 205,
+            "params": {
+                "encoding_strength": 0.07083094826907295,
+                "coupling_strength": 0.2488851338371511,
+                "gamma": 5.114728760198038
+            },
+            "mean": 0.23889412448013228,
+            "std": 0.025537392905039126,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 206,
+            "params": {
+                "encoding_strength": 0.05944734417413543,
+                "coupling_strength": 0.36989050898472636,
+                "gamma": 3.2980080287483444
+            },
+            "mean": 0.21245641009233296,
+            "std": 0.02300361973998619,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 207,
+            "params": {
+                "encoding_strength": 0.0747318370320208,
+                "coupling_strength": 0.5005998099510505,
+                "gamma": 6.598206694169198
+            },
+            "mean": 0.23436955355305739,
+            "std": 0.034029199957820264,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 208,
+            "params": {
+                "encoding_strength": 0.05170830714631652,
+                "coupling_strength": 0.30810890625010884,
+                "gamma": 3.881218190700571
+            },
+            "mean": 0.22298106964419917,
+            "std": 0.017899776438063904,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 209,
+            "params": {
+                "encoding_strength": 0.03542761801568333,
+                "coupling_strength": 0.5047873878832614,
+                "gamma": 4.914935226697175
+            },
+            "mean": 0.23210347078658486,
+            "std": 0.0324144233937618,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 210,
+            "params": {
+                "encoding_strength": 0.08853701943380134,
+                "coupling_strength": 0.6805100550240857,
+                "gamma": 5.877603783884302
+            },
+            "mean": 0.23340422863284632,
+            "std": 0.03844828624649582,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 211,
+            "params": {
+                "encoding_strength": 0.06786573223419613,
+                "coupling_strength": 0.2637144345245497,
+                "gamma": 4.9757381650620385
+            },
+            "mean": 0.24070906476428755,
+            "std": 0.025948980131136234,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 212,
+            "params": {
+                "encoding_strength": 0.06449087820438087,
+                "coupling_strength": 0.23550001042245208,
+                "gamma": 4.661452221300135
+            },
+            "mean": 0.2395938348654393,
+            "std": 0.023239845404564297,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 213,
+            "params": {
+                "encoding_strength": 0.06749673820068618,
+                "coupling_strength": 0.28491531946246235,
+                "gamma": 4.0707845391827995
+            },
+            "mean": 0.22989407677935675,
+            "std": 0.018293545585850536,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 214,
+            "params": {
+                "encoding_strength": 0.07918051229063704,
+                "coupling_strength": 0.2124266449534131,
+                "gamma": 4.563462412388862
+            },
+            "mean": 0.2355420711044601,
+            "std": 0.020660650007664663,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 215,
+            "params": {
+                "encoding_strength": 0.09944810287861588,
+                "coupling_strength": 0.24676778462203988,
+                "gamma": 3.3172726465433424
+            },
+            "mean": 0.2198945267136369,
+            "std": 0.01613972515356939,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 216,
+            "params": {
+                "encoding_strength": 0.06117754685628074,
+                "coupling_strength": 0.35585382906134855,
+                "gamma": 7.534720944258522
+            },
+            "mean": 0.23104190463653257,
+            "std": 0.030910792883020632,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 217,
+            "params": {
+                "encoding_strength": 0.07535086646943977,
+                "coupling_strength": 0.4589518358653995,
+                "gamma": 4.781291810189742
+            },
+            "mean": 0.24146830552337478,
+            "std": 0.03151688358834252,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 218,
+            "params": {
+                "encoding_strength": 0.07247709351166122,
+                "coupling_strength": 0.16442887827130764,
+                "gamma": 6.321141964470492
+            },
+            "mean": 0.2268683397195738,
+            "std": 0.023647546790082807,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 219,
+            "params": {
+                "encoding_strength": 0.0807859579239721,
+                "coupling_strength": 0.4894282690423495,
+                "gamma": 3.816711916858693
+            },
+            "mean": 0.23189120581067812,
+            "std": 0.03117130487041057,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 220,
+            "params": {
+                "encoding_strength": 0.06409403849416967,
+                "coupling_strength": 0.3115504805588799,
+                "gamma": 5.178070795275801
+            },
+            "mean": 0.2406554520900428,
+            "std": 0.027123436629487435,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 221,
+            "params": {
+                "encoding_strength": 0.061611302712537806,
+                "coupling_strength": 0.32671270751273085,
+                "gamma": 4.785226030644198
+            },
+            "mean": 0.2429769717526506,
+            "std": 0.027874836562276455,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 222,
+            "params": {
+                "encoding_strength": 0.059814307781685026,
+                "coupling_strength": 0.3984088874536502,
+                "gamma": 5.581220062818309
+            },
+            "mean": 0.2388131121570236,
+            "std": 0.028800892118825448,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 223,
+            "params": {
+                "encoding_strength": 0.06555821607519488,
+                "coupling_strength": 0.3178017350199597,
+                "gamma": 4.5729914464662516
+            },
+            "mean": 0.24196999425339943,
+            "std": 0.02657413280215254,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 224,
+            "params": {
+                "encoding_strength": 0.055280328805986,
+                "coupling_strength": 0.2871429898795391,
+                "gamma": 4.92385397036166
+            },
+            "mean": 0.24267379992153093,
+            "std": 0.0268075475902218,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 225,
+            "params": {
+                "encoding_strength": 0.05426905666045415,
+                "coupling_strength": 0.19671559657348517,
+                "gamma": 4.470650001469768
+            },
+            "mean": 0.2315386342196874,
+            "std": 0.017068510329000947,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 226,
+            "params": {
+                "encoding_strength": 0.061463350665712985,
+                "coupling_strength": 0.29231425757803886,
+                "gamma": 6.507957166805421
+            },
+            "mean": 0.2349721211018195,
+            "std": 0.028460526708564086,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 227,
+            "params": {
+                "encoding_strength": 0.04640526518730316,
+                "coupling_strength": 0.08892349498580852,
+                "gamma": 0.014466181590911701
+            },
+            "mean": 0.0,
+            "std": 0.0,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 228,
+            "params": {
+                "encoding_strength": 0.043512320808574416,
+                "coupling_strength": 0.22884835662678987,
+                "gamma": 3.417205552695185
+            },
+            "mean": 0.2105923394597647,
+            "std": 0.015135915073668876,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 229,
+            "params": {
+                "encoding_strength": 0.053925526446017225,
+                "coupling_strength": 0.31510204415043513,
+                "gamma": 4.673210752181527
+            },
+            "mean": 0.24264028143588634,
+            "std": 0.027353562296634673,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 230,
+            "params": {
+                "encoding_strength": 0.06707913268460572,
+                "coupling_strength": 0.31138763148823445,
+                "gamma": 2.9047169777973663
+            },
+            "mean": 0.20567741218671448,
+            "std": 0.020866979735132445,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 231,
+            "params": {
+                "encoding_strength": 0.05826095172785339,
+                "coupling_strength": 0.2653580997282921,
+                "gamma": 4.693239396909509
+            },
+            "mean": 0.2417808541044643,
+            "std": 0.02524945210253197,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 232,
+            "params": {
+                "encoding_strength": 0.07352251034969319,
+                "coupling_strength": 0.2489628294286235,
+                "gamma": 4.506505653507452
+            },
+            "mean": 0.23778496845111968,
+            "std": 0.021973107546620733,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 233,
+            "params": {
+                "encoding_strength": 0.06080285894425813,
+                "coupling_strength": 0.3231490755701329,
+                "gamma": 3.738093151600286
+            },
+            "mean": 0.22318598681543453,
+            "std": 0.01886345818782937,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 234,
+            "params": {
+                "encoding_strength": 0.05103016941860199,
+                "coupling_strength": 0.2555282812909461,
+                "gamma": 4.577821978764548
+            },
+            "mean": 0.2390953780877611,
+            "std": 0.023220218245196003,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 235,
+            "params": {
+                "encoding_strength": 0.0902437241272733,
+                "coupling_strength": 0.181399114299174,
+                "gamma": 6.025781841082678
+            },
+            "mean": 0.22652065300160257,
+            "std": 0.02377656016290236,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 236,
+            "params": {
+                "encoding_strength": 0.06841827194192926,
+                "coupling_strength": 0.14586903815779023,
+                "gamma": 3.8542013724920174
+            },
+            "mean": 0.2193305794334758,
+            "std": 0.013016965361311857,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 237,
+            "params": {
+                "encoding_strength": 0.07542335640843395,
+                "coupling_strength": 0.3337385529525532,
+                "gamma": 5.10653757019091
+            },
+            "mean": 0.24053804383242677,
+            "std": 0.027984563886274374,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 238,
+            "params": {
+                "encoding_strength": 0.07810445468100333,
+                "coupling_strength": 0.33965165490597626,
+                "gamma": 7.237263648830614
+            },
+            "mean": 0.22881298220613483,
+            "std": 0.03021677971542215,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 239,
+            "params": {
+                "encoding_strength": 0.05637356548804547,
+                "coupling_strength": 0.2123958081433994,
+                "gamma": 5.681924223570664
+            },
+            "mean": 0.2358806667203072,
+            "std": 0.025023338759788898,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 240,
+            "params": {
+                "encoding_strength": 0.08887839792636412,
+                "coupling_strength": 0.2788226704679844,
+                "gamma": 5.073369432432585
+            },
+            "mean": 0.23786818662932827,
+            "std": 0.026349703028835648,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 241,
+            "params": {
+                "encoding_strength": 0.06533280747713197,
+                "coupling_strength": 0.36211876797295495,
+                "gamma": 4.497997126825222
+            },
+            "mean": 0.24177503121694874,
+            "std": 0.027928345210730354,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 242,
+            "params": {
+                "encoding_strength": 0.0656370486537483,
+                "coupling_strength": 0.36686756601051096,
+                "gamma": 4.380614626426842
+            },
+            "mean": 0.24001309592451409,
+            "std": 0.02705528520626505,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 243,
+            "params": {
+                "encoding_strength": 0.06140978010330184,
+                "coupling_strength": 0.3407637668449812,
+                "gamma": 4.275977547535163
+            },
+            "mean": 0.2366778912723369,
+            "std": 0.02420840975056272,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 244,
+            "params": {
+                "encoding_strength": 0.07009171864824314,
+                "coupling_strength": 0.26899747959443526,
+                "gamma": 4.765546005870355
+            },
+            "mean": 0.24131775393862148,
+            "std": 0.025666392641677298,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 245,
+            "params": {
+                "encoding_strength": 0.06699376044506249,
+                "coupling_strength": 0.3847587025624868,
+                "gamma": 6.05608280593422
+            },
+            "mean": 0.23726078111514118,
+            "std": 0.029924864875023993,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 246,
+            "params": {
+                "encoding_strength": 0.041956061832847176,
+                "coupling_strength": 0.22399287600453135,
+                "gamma": 47.31194095997982
+            },
+            "mean": 0.08393332799914467,
+            "std": 0.0011189238274385586,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 247,
+            "params": {
+                "encoding_strength": 0.05582944357490584,
+                "coupling_strength": 0.2885742640519335,
+                "gamma": 4.891422758123726
+            },
+            "mean": 0.24278658289461177,
+            "std": 0.02686695949441089,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 248,
+            "params": {
+                "encoding_strength": 0.05406211722878527,
+                "coupling_strength": 0.30776475450574003,
+                "gamma": 3.133526002773737
+            },
+            "mean": 0.20725244052646064,
+            "std": 0.019917877093203647,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 249,
+            "params": {
+                "encoding_strength": 0.07359556517211825,
+                "coupling_strength": 0.4559332638450812,
+                "gamma": 3.8748754680891526
+            },
+            "mean": 0.23156357441161207,
+            "std": 0.029198708746382238,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 250,
+            "params": {
+                "encoding_strength": 0.04670912033551378,
+                "coupling_strength": 0.5489484451959474,
+                "gamma": 7.14780641478351
+            },
+            "mean": 0.2344631087482009,
+            "std": 0.03474880977974397,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 251,
+            "params": {
+                "encoding_strength": 0.05524106412817503,
+                "coupling_strength": 0.403712672173716,
+                "gamma": 5.048595780841023
+            },
+            "mean": 0.2406563475472515,
+            "std": 0.028998833899862242,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 252,
+            "params": {
+                "encoding_strength": 0.0591096358568701,
+                "coupling_strength": 0.30755113290882696,
+                "gamma": 0.06605841710282306
+            },
+            "mean": 0.01586782886737354,
+            "std": 0.009269230164672928,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 253,
+            "params": {
+                "encoding_strength": 0.05127433460030614,
+                "coupling_strength": 0.396149946155121,
+                "gamma": 5.845833728809535
+            },
+            "mean": 0.23793425782299651,
+            "std": 0.02834259317940047,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 254,
+            "params": {
+                "encoding_strength": 0.057200678972548526,
+                "coupling_strength": 0.1848514893697443,
+                "gamma": 4.419500464405605
+            },
+            "mean": 0.22945199241140285,
+            "std": 0.01594356046505292,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 255,
+            "params": {
+                "encoding_strength": 0.06792164915781403,
+                "coupling_strength": 0.5363919625621976,
+                "gamma": 3.3878804103721047
+            },
+            "mean": 0.218446860699789,
+            "std": 0.03299774580792622,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 256,
+            "params": {
+                "encoding_strength": 0.04031712715273289,
+                "coupling_strength": 0.2620279760606859,
+                "gamma": 4.77871095976771
+            },
+            "mean": 0.24231754266347708,
+            "std": 0.02639284298119461,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 257,
+            "params": {
+                "encoding_strength": 0.03878989248729179,
+                "coupling_strength": 0.2731999778483924,
+                "gamma": 8.40237294225407
+            },
+            "mean": 0.23030414956118386,
+            "std": 0.029416516579294106,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 258,
+            "params": {
+                "encoding_strength": 0.04352660559978062,
+                "coupling_strength": 0.20715344761799967,
+                "gamma": 5.328499235878248
+            },
+            "mean": 0.23895233094210147,
+            "std": 0.023882551978960477,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 259,
+            "params": {
+                "encoding_strength": 0.027876284329447925,
+                "coupling_strength": 0.2749305411972492,
+                "gamma": 6.467028570348256
+            },
+            "mean": 0.2346960148256647,
+            "std": 0.02420180318779694,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 260,
+            "params": {
+                "encoding_strength": 0.045803606883225254,
+                "coupling_strength": 0.4497171783716064,
+                "gamma": 3.8307261246399977
+            },
+            "mean": 0.2211677746468373,
+            "std": 0.02906809794549349,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 261,
+            "params": {
+                "encoding_strength": 0.035440091936633604,
+                "coupling_strength": 0.1503371016221838,
+                "gamma": 4.933757754991944
+            },
+            "mean": 0.23980638517108743,
+            "std": 0.02206361716593559,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 262,
+            "params": {
+                "encoding_strength": 0.04905815373607395,
+                "coupling_strength": 0.3337871636174134,
+                "gamma": 6.199994685882075
+            },
+            "mean": 0.23748159928621684,
+            "std": 0.02783064979344832,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 263,
+            "params": {
+                "encoding_strength": 0.05409516734988405,
+                "coupling_strength": 0.11211854073840324,
+                "gamma": 4.808509716957073
+            },
+            "mean": 0.22938300239729453,
+            "std": 0.017663823925445406,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 264,
+            "params": {
+                "encoding_strength": 0.07207376548657601,
+                "coupling_strength": 0.24440642908422439,
+                "gamma": 3.809697303010026
+            },
+            "mean": 0.2237509716582601,
+            "std": 0.015526571545267364,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 265,
+            "params": {
+                "encoding_strength": 0.06050541358839195,
+                "coupling_strength": 0.6240457387389574,
+                "gamma": 2.746689501976817
+            },
+            "mean": 0.1998455504917957,
+            "std": 0.03280114154089215,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 266,
+            "params": {
+                "encoding_strength": 0.020685350075098984,
+                "coupling_strength": 0.44409256076206943,
+                "gamma": 6.851382552632749
+            },
+            "mean": 0.22863150202732588,
+            "std": 0.026398017737344598,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 267,
+            "params": {
+                "encoding_strength": 0.10011393930002445,
+                "coupling_strength": 0.35043964863879,
+                "gamma": 5.5767563073313715
+            },
+            "mean": 0.23565946964308554,
+            "std": 0.029115953060143595,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 268,
+            "params": {
+                "encoding_strength": 0.07601226205230993,
+                "coupling_strength": 0.2658866256017736,
+                "gamma": 3.3143562906080044
+            },
+            "mean": 0.21684935472365868,
+            "std": 0.016979378859155746,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 269,
+            "params": {
+                "encoding_strength": 0.05406567972783058,
+                "coupling_strength": 0.5743718283554416,
+                "gamma": 4.105371154278242
+            },
+            "mean": 0.23023063579338926,
+            "std": 0.035260268653405875,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 270,
+            "params": {
+                "encoding_strength": 0.03935687048038138,
+                "coupling_strength": 0.18418713454610475,
+                "gamma": 8.324746453165199
+            },
+            "mean": 0.22664859361898246,
+            "std": 0.02716277665504051,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 271,
+            "params": {
+                "encoding_strength": 0.0648174342118335,
+                "coupling_strength": 0.06585478290885483,
+                "gamma": 89.10803395702729
+            },
+            "mean": 0.08333333330489054,
+            "std": 1.6153548105641666e-11,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 272,
+            "params": {
+                "encoding_strength": 0.07917992121080808,
+                "coupling_strength": 0.38018418859190994,
+                "gamma": 5.181650692531381
+            },
+            "mean": 0.24012615820498287,
+            "std": 0.029266224054148467,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 273,
+            "params": {
+                "encoding_strength": 0.049443634855009175,
+                "coupling_strength": 0.30028226339180125,
+                "gamma": 4.686422379328902
+            },
+            "mean": 0.24241078184566053,
+            "std": 0.02699148528339924,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 274,
+            "params": {
+                "encoding_strength": 0.045621911096238345,
+                "coupling_strength": 0.29427015516797306,
+                "gamma": 6.896943083353758
+            },
+            "mean": 0.23582885951635663,
+            "std": 0.028458889892609765,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 275,
+            "params": {
+                "encoding_strength": 0.050138191503624974,
+                "coupling_strength": 0.455020837709834,
+                "gamma": 5.373874907464661
+            },
+            "mean": 0.23743125242499322,
+            "std": 0.02901250013848024,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 276,
+            "params": {
+                "encoding_strength": 0.05889482767483887,
+                "coupling_strength": 0.21545172694935408,
+                "gamma": 4.275313913515783
+            },
+            "mean": 0.22866313554944692,
+            "std": 0.015877818686456137,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 277,
+            "params": {
+                "encoding_strength": 0.052520837214928985,
+                "coupling_strength": 0.3341124237379775,
+                "gamma": 3.240805037876453
+            },
+            "mean": 0.20895555307854222,
+            "std": 0.02104602498212156,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 278,
+            "params": {
+                "encoding_strength": 0.06755925128128351,
+                "coupling_strength": 0.4971846971047835,
+                "gamma": 5.77555315391136
+            },
+            "mean": 0.23727697640297415,
+            "std": 0.032024601142488285,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 279,
+            "params": {
+                "encoding_strength": 0.04164946453280959,
+                "coupling_strength": 0.26892100975296246,
+                "gamma": 4.784356480415969
+            },
+            "mean": 0.24254659725784505,
+            "std": 0.02660579738960084,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 280,
+            "params": {
+                "encoding_strength": 0.0449856762324503,
+                "coupling_strength": 0.24635015978719432,
+                "gamma": 4.090028236465519
+            },
+            "mean": 0.22329961756174574,
+            "std": 0.015322355412838584,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 281,
+            "params": {
+                "encoding_strength": 0.042619863405581423,
+                "coupling_strength": 0.1910956592247802,
+                "gamma": 4.601513725173359
+            },
+            "mean": 0.23366858459142428,
+            "std": 0.018640691154295133,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 282,
+            "params": {
+                "encoding_strength": 0.05436091937251303,
+                "coupling_strength": 0.27377841828665955,
+                "gamma": 0.20543236676955842
+            },
+            "mean": 0.07838560479224622,
+            "std": 0.02673331866538616,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 283,
+            "params": {
+                "encoding_strength": 0.042299583880034686,
+                "coupling_strength": 0.3307431172982233,
+                "gamma": 7.475030052347841
+            },
+            "mean": 0.23506139104835627,
+            "std": 0.03004711715931422,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 284,
+            "params": {
+                "encoding_strength": 0.004776817691788671,
+                "coupling_strength": 0.1659977406375749,
+                "gamma": 2.6845208016506388
+            },
+            "mean": 0.15948862296388228,
+            "std": 0.02592130265678536,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 285,
+            "params": {
+                "encoding_strength": 0.0366048411419317,
+                "coupling_strength": 0.23072698811918946,
+                "gamma": 3.5676561446766404
+            },
+            "mean": 0.21042649191829765,
+            "std": 0.014077476797515486,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 286,
+            "params": {
+                "encoding_strength": 0.03337491690319352,
+                "coupling_strength": 0.42101553681409,
+                "gamma": 6.302441419714107
+            },
+            "mean": 0.2347566163508544,
+            "std": 0.027113103614695846,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 287,
+            "params": {
+                "encoding_strength": 0.059655496046345166,
+                "coupling_strength": 0.5828064771182514,
+                "gamma": 4.81281614753853
+            },
+            "mean": 0.23610659290131522,
+            "std": 0.03438880841503251,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 288,
+            "params": {
+                "encoding_strength": 0.049245580500734444,
+                "coupling_strength": 0.3028374305187571,
+                "gamma": 3.708099373447116
+            },
+            "mean": 0.21858785931435598,
+            "std": 0.01704046193602568,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 289,
+            "params": {
+                "encoding_strength": 0.06855871788661926,
+                "coupling_strength": 0.3652329010993009,
+                "gamma": 6.052852852492334
+            },
+            "mean": 0.23703474657103213,
+            "std": 0.02954490420111751,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 290,
+            "params": {
+                "encoding_strength": 0.05980094590778986,
+                "coupling_strength": 0.25435675750576386,
+                "gamma": 4.645453009433685
+            },
+            "mean": 0.24067564827626486,
+            "std": 0.024135417636354586,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 291,
+            "params": {
+                "encoding_strength": 0.030414739499071832,
+                "coupling_strength": 0.13293540730040815,
+                "gamma": 9.037426980376145
+            },
+            "mean": 0.2212455217621236,
+            "std": 0.024397049033301484,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 292,
+            "params": {
+                "encoding_strength": 0.03976045611590435,
+                "coupling_strength": 0.23808173627918225,
+                "gamma": 3.271002594040143
+            },
+            "mean": 0.20635306345791907,
+            "std": 0.016506076961842215,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 293,
+            "params": {
+                "encoding_strength": 0.05873124464675353,
+                "coupling_strength": 0.1980636245417962,
+                "gamma": 5.4008228509326175
+            },
+            "mean": 0.2363172386028583,
+            "std": 0.024236271144057797,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 294,
+            "params": {
+                "encoding_strength": 0.04967982100876741,
+                "coupling_strength": 0.2954273864051927,
+                "gamma": 4.251286140831562
+            },
+            "mean": 0.2312863768648663,
+            "std": 0.020524500600226866,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 295,
+            "params": {
+                "encoding_strength": 0.06324430742080026,
+                "coupling_strength": 0.25786528154828875,
+                "gamma": 6.819462383169449
+            },
+            "mean": 0.23217297927488448,
+            "std": 0.028108314856430363,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 296,
+            "params": {
+                "encoding_strength": 0.08924244888606687,
+                "coupling_strength": 0.3587251644554787,
+                "gamma": 3.946102674742486
+            },
+            "mean": 0.23384256784280852,
+            "std": 0.022689272093623456,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 297,
+            "params": {
+                "encoding_strength": 0.051439825639727405,
+                "coupling_strength": 0.21238015771414295,
+                "gamma": 5.276991602541309
+            },
+            "mean": 0.2388884346295325,
+            "std": 0.024407496042029842,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 298,
+            "params": {
+                "encoding_strength": 0.06052372577839693,
+                "coupling_strength": 0.16811236028370094,
+                "gamma": 2.916269739329794
+            },
+            "mean": 0.20799444424649555,
+            "std": 0.015286619088140727,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 299,
+            "params": {
+                "encoding_strength": 0.07658049294294489,
+                "coupling_strength": 0.2873314342752543,
+                "gamma": 7.6724596295373075
+            },
+            "mean": 0.22394147173314102,
+            "std": 0.029218480868467307,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        }
+    ],
+    "protocol": {
+        "n_trials": 300,
+        "n_startup_trials": 30,
+        "tune_seeds": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ],
+        "eval_seeds": [
+            1000,
+            1001,
+            1002,
+            1003,
+            1004,
+            1005,
+            1006,
+            1007,
+            1008,
+            1009,
+            1010,
+            1011,
+            1012,
+            1013,
+            1014,
+            1015,
+            1016,
+            1017,
+            1018,
+            1019
+        ],
+        "direction": "maximize",
+        "objective_split": null,
+        "split": null
+    }
+}

@@ -1,0 +1,1509 @@
+{
+    "best_params": {
+        "input_scaling": 0.0028931267127387905,
+        "spectral_radius": 0.019269606091786178,
+        "leak_rate": 0.776427952725575,
+        "bias_scale": 1.894071652582277
+    },
+    "sampler_seed": 622677461,
+    "n": 4,
+    "d": 2,
+    "encoding_mode": "dense",
+    "target": null,
+    "search_score_mean": 0.21342588665763879,
+    "search_score_std": 0.022322102622444634,
+    "search_score_test_mean": null,
+    "search_score_test_std": null,
+    "holdout_score_mean": 0.2070574649784529,
+    "holdout_score_sd": 0.028385732541945388,
+    "holdout_score_sem": 0.006347242755491779,
+    "holdout_scores": [
+        0.24165148512618093,
+        0.175607649155085,
+        0.24838803713556498,
+        0.17539831967352573,
+        0.206523156031737,
+        0.15389928430874386,
+        0.22266516650443288,
+        0.19138726052245703,
+        0.21244714708964585,
+        0.20012449935532572,
+        0.225043651735371,
+        0.25278374461767045,
+        0.18129501194795936,
+        0.23528876916957323,
+        0.18635816270924435,
+        0.23356209878526502,
+        0.22038023668414175,
+        0.1787635641682339,
+        0.17821746148499873,
+        0.22136459336390116
+    ],
+    "holdout_seeds": [
+        1000,
+        1001,
+        1002,
+        1003,
+        1004,
+        1005,
+        1006,
+        1007,
+        1008,
+        1009,
+        1010,
+        1011,
+        1012,
+        1013,
+        1014,
+        1015,
+        1016,
+        1017,
+        1018,
+        1019
+    ],
+    "n_holdout_ok": 20,
+    "holdout_failed_seeds": [],
+    "search_optimism": 0.006368421679185887,
+    "trials": [
+        {
+            "number": 0,
+            "params": {
+                "input_scaling": 0.0014762043120544325,
+                "spectral_radius": 2.256958726814513,
+                "leak_rate": 0.1122882634133826,
+                "bias_scale": 12.06023431326654
+            },
+            "mean": 0.07850715984435627,
+            "std": 0.01388652178511695,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 1,
+            "params": {
+                "input_scaling": 0.09954436133299222,
+                "spectral_radius": 0.01742781369415724,
+                "leak_rate": 0.06785078864967775,
+                "bias_scale": 0.8016987990640522
+            },
+            "mean": 0.12340773383269195,
+            "std": 0.01651463060745181,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 2,
+            "params": {
+                "input_scaling": 0.00492183502214662,
+                "spectral_radius": 0.024203521225630326,
+                "leak_rate": 0.7269107596921407,
+                "bias_scale": 0.7114683354835113
+            },
+            "mean": 0.19568637180538254,
+            "std": 0.02709470814121762,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 3,
+            "params": {
+                "input_scaling": 0.7299274001954884,
+                "spectral_radius": 0.018562929542792365,
+                "leak_rate": 0.6229990929472589,
+                "bias_scale": 0.20437591185155418
+            },
+            "mean": 0.13070249587317734,
+            "std": 0.030623204935147308,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 4,
+            "params": {
+                "input_scaling": 0.13436235813959083,
+                "spectral_radius": 0.23475877784846494,
+                "leak_rate": 0.5286474562763146,
+                "bias_scale": 0.45128380906645
+            },
+            "mean": 0.17943435749745862,
+            "std": 0.030266102935309114,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 5,
+            "params": {
+                "input_scaling": 0.24270803533993454,
+                "spectral_radius": 0.2767011591287764,
+                "leak_rate": 0.2517869246625227,
+                "bias_scale": 4.582920053466749
+            },
+            "mean": 0.1762132973032336,
+            "std": 0.02243576583643715,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 6,
+            "params": {
+                "input_scaling": 0.0057364651816379985,
+                "spectral_radius": 0.5339746674276329,
+                "leak_rate": 0.5368627757833194,
+                "bias_scale": 6.073901949987825
+            },
+            "mean": 0.1921227058886129,
+            "std": 0.020847070144417324,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 7,
+            "params": {
+                "input_scaling": 0.7903408159825047,
+                "spectral_radius": 1.4855208180116788,
+                "leak_rate": 0.4973002250458419,
+                "bias_scale": 6.519174299069298
+            },
+            "mean": 0.18534321464567777,
+            "std": 0.011367245823450195,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 8,
+            "params": {
+                "input_scaling": 0.2705229656219057,
+                "spectral_radius": 0.14986893889648642,
+                "leak_rate": 0.806670435104486,
+                "bias_scale": 3.503013458945777
+            },
+            "mean": 0.19194957240941662,
+            "std": 0.021220265018003576,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 9,
+            "params": {
+                "input_scaling": 0.06878797171206501,
+                "spectral_radius": 0.15472443092127525,
+                "leak_rate": 0.5234858430977365,
+                "bias_scale": 2.1770703426762936
+            },
+            "mean": 0.2078204163473211,
+            "std": 0.0253932116156016,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 10,
+            "params": {
+                "input_scaling": 0.03088271336893865,
+                "spectral_radius": 0.06062880187653059,
+                "leak_rate": 0.3254654820601511,
+                "bias_scale": 1.8963968580554262
+            },
+            "mean": 0.1978066457150546,
+            "std": 0.02663899336992179,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 11,
+            "params": {
+                "input_scaling": 0.02399717863538347,
+                "spectral_radius": 0.07135068448085476,
+                "leak_rate": 0.31266262100842734,
+                "bias_scale": 1.9877397316372056
+            },
+            "mean": 0.20185509865178092,
+            "std": 0.025635687899039108,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 12,
+            "params": {
+                "input_scaling": 0.024852018779510987,
+                "spectral_radius": 0.08871367568818171,
+                "leak_rate": 0.3273211549839524,
+                "bias_scale": 1.9696134020928455
+            },
+            "mean": 0.2051092642714246,
+            "std": 0.024325890166652615,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 13,
+            "params": {
+                "input_scaling": 0.01579843088856026,
+                "spectral_radius": 0.6871900879929703,
+                "leak_rate": 0.9461344445298701,
+                "bias_scale": 16.9669295981733
+            },
+            "mean": 0.1260386412574901,
+            "std": 0.04071570065911079,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 14,
+            "params": {
+                "input_scaling": 0.06663169494612294,
+                "spectral_radius": 0.07058216577053358,
+                "leak_rate": 0.4095531727934863,
+                "bias_scale": 1.2428035349742368
+            },
+            "mean": 0.19549376959843434,
+            "std": 0.02643229550590409,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 15,
+            "params": {
+                "input_scaling": 0.01180824114588507,
+                "spectral_radius": 9.01357425013529,
+                "leak_rate": 0.18576049401051326,
+                "bias_scale": 0.10953411083247684
+            },
+            "mean": 0.06436120955993946,
+            "std": 0.08524532151535333,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 16,
+            "params": {
+                "input_scaling": 0.05336014621938129,
+                "spectral_radius": 0.13436023803159386,
+                "leak_rate": 0.40579785181664974,
+                "bias_scale": 2.6046685332445083
+            },
+            "mean": 0.20207083244888485,
+            "std": 0.027506856160360985,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 17,
+            "params": {
+                "input_scaling": 0.005798531989060331,
+                "spectral_radius": 0.03894746222146167,
+                "leak_rate": 0.6710270751809562,
+                "bias_scale": 0.3920950372638179
+            },
+            "mean": 0.17829184005500415,
+            "std": 0.02856767364617084,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 18,
+            "params": {
+                "input_scaling": 0.0021957756826423646,
+                "spectral_radius": 0.010657654589073348,
+                "leak_rate": 0.8650499364461005,
+                "bias_scale": 1.3873774485734183
+            },
+            "mean": 0.20788818240932466,
+            "std": 0.026245915856932225,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 19,
+            "params": {
+                "input_scaling": 0.0021444705011296637,
+                "spectral_radius": 0.010849114364385112,
+                "leak_rate": 0.9271154367716711,
+                "bias_scale": 1.0703739154133356
+            },
+            "mean": 0.2029839863471133,
+            "std": 0.02687467043408502,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 20,
+            "params": {
+                "input_scaling": 0.0010633854480118935,
+                "spectral_radius": 3.264039868386044,
+                "leak_rate": 0.859198286121289,
+                "bias_scale": 0.4776019142279514
+            },
+            "mean": 0.01902687384033063,
+            "std": 0.038745564497791436,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 21,
+            "params": {
+                "input_scaling": 0.003018218350279544,
+                "spectral_radius": 0.5492766540753773,
+                "leak_rate": 0.9953145642010908,
+                "bias_scale": 1.8270413501725682
+            },
+            "mean": 0.09814180761207453,
+            "std": 0.032615404212669064,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 22,
+            "params": {
+                "input_scaling": 0.013206084110890191,
+                "spectral_radius": 0.1273348564246707,
+                "leak_rate": 0.7201340728162693,
+                "bias_scale": 2.9105176110127022
+            },
+            "mean": 0.20586355651731986,
+            "std": 0.02581960555880971,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 23,
+            "params": {
+                "input_scaling": 0.008959330488568496,
+                "spectral_radius": 0.031640626785924386,
+                "leak_rate": 0.7718054323002057,
+                "bias_scale": 3.167838481225239
+            },
+            "mean": 0.2057699493886187,
+            "std": 0.020507673535410546,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 24,
+            "params": {
+                "input_scaling": 0.05373079542522857,
+                "spectral_radius": 0.14281750906288035,
+                "leak_rate": 0.629211366099532,
+                "bias_scale": 9.161567505151668
+            },
+            "mean": 0.20581580032954547,
+            "std": 0.021516104589839585,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 25,
+            "params": {
+                "input_scaling": 0.0031292847133020892,
+                "spectral_radius": 0.011461163056470155,
+                "leak_rate": 0.8690281745004764,
+                "bias_scale": 1.0454416430434637
+            },
+            "mean": 0.2032640200354594,
+            "std": 0.027477720309814022,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 26,
+            "params": {
+                "input_scaling": 0.01738467309663849,
+                "spectral_radius": 0.7904802077926735,
+                "leak_rate": 0.7119647303609293,
+                "bias_scale": 3.9587990959229167
+            },
+            "mean": 0.18642621601839013,
+            "std": 0.030413116108139352,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 27,
+            "params": {
+                "input_scaling": 0.1990222063606254,
+                "spectral_radius": 0.04209406426741091,
+                "leak_rate": 0.6084664645001661,
+                "bias_scale": 0.7480405520391917
+            },
+            "mean": 0.19210496870995988,
+            "std": 0.021630765426539706,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 28,
+            "params": {
+                "input_scaling": 0.008433988294265903,
+                "spectral_radius": 0.3479640760313642,
+                "leak_rate": 0.8194506652552038,
+                "bias_scale": 5.49779465360832
+            },
+            "mean": 0.1982555782114282,
+            "std": 0.025287657641116786,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 29,
+            "params": {
+                "input_scaling": 0.0016978817021226725,
+                "spectral_radius": 1.8427767586288493,
+                "leak_rate": 0.4642080406582926,
+                "bias_scale": 8.663247565027431
+            },
+            "mean": 0.15650454207484382,
+            "std": 0.03162224005882297,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 30,
+            "params": {
+                "input_scaling": 0.4795321252982684,
+                "spectral_radius": 4.388292939007169,
+                "leak_rate": 0.5817379950132106,
+                "bias_scale": 2.5302498229925647
+            },
+            "mean": 0.11156926252529856,
+            "std": 0.10716568925205819,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 31,
+            "params": {
+                "input_scaling": 0.04780826605010487,
+                "spectral_radius": 0.12393570477977155,
+                "leak_rate": 0.74500637764421,
+                "bias_scale": 10.474682870591112
+            },
+            "mean": 0.2062237148181671,
+            "std": 0.021820510831583397,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 32,
+            "params": {
+                "input_scaling": 0.07702719226354252,
+                "spectral_radius": 0.20814564862149443,
+                "leak_rate": 0.7241502768747361,
+                "bias_scale": 12.081625559333519
+            },
+            "mean": 0.19942528768613285,
+            "std": 0.021813772344356042,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 33,
+            "params": {
+                "input_scaling": 0.03769581055730895,
+                "spectral_radius": 0.11249272031303399,
+                "leak_rate": 0.7593922530245606,
+                "bias_scale": 17.98623221411184
+            },
+            "mean": 0.10850998662863212,
+            "std": 0.034835143056723694,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 34,
+            "params": {
+                "input_scaling": 0.12870480878535598,
+                "spectral_radius": 1.095325479469653,
+                "leak_rate": 0.8894461727416763,
+                "bias_scale": 1.6548921748956802
+            },
+            "mean": 0.1548910654355758,
+            "std": 0.0341639801762123,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 35,
+            "params": {
+                "input_scaling": 0.04095347170416342,
+                "spectral_radius": 0.019671789639729143,
+                "leak_rate": 0.6746996907835469,
+                "bias_scale": 0.5815979723435801
+            },
+            "mean": 0.1881418265004389,
+            "std": 0.02721728242458745,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 36,
+            "params": {
+                "input_scaling": 0.0952725457944046,
+                "spectral_radius": 0.19002156527829656,
+                "leak_rate": 0.8076363165653676,
+                "bias_scale": 0.8868678790314044
+            },
+            "mean": 0.19867289789514148,
+            "std": 0.02850434866654258,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 37,
+            "params": {
+                "input_scaling": 0.15375800501638606,
+                "spectral_radius": 0.37401277366379004,
+                "leak_rate": 0.5731597026139728,
+                "bias_scale": 0.3452048212796263
+            },
+            "mean": 0.15710643890098525,
+            "std": 0.025510739833345657,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 38,
+            "params": {
+                "input_scaling": 0.37668962154464053,
+                "spectral_radius": 0.0502965133937168,
+                "leak_rate": 0.007162083664730257,
+                "bias_scale": 1.4092197451498323
+            },
+            "mean": 0.05077817283315642,
+            "std": 0.006772495991781246,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 39,
+            "params": {
+                "input_scaling": 0.00370774388765687,
+                "spectral_radius": 0.02984055962125326,
+                "leak_rate": 0.6714415909071868,
+                "bias_scale": 2.6142394719298165
+            },
+            "mean": 0.20931682808092672,
+            "std": 0.02491108229014367,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 40,
+            "params": {
+                "input_scaling": 0.0031574963860471882,
+                "spectral_radius": 0.0272268642414022,
+                "leak_rate": 0.6605448982342722,
+                "bias_scale": 4.500343081306761
+            },
+            "mean": 0.20466897652490895,
+            "std": 0.014521324761390375,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 41,
+            "params": {
+                "input_scaling": 0.004047507041483162,
+                "spectral_radius": 0.019372574043999273,
+                "leak_rate": 0.7548569717782445,
+                "bias_scale": 2.635703642792953
+            },
+            "mean": 0.20865268571868825,
+            "std": 0.02370949943039229,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 42,
+            "params": {
+                "input_scaling": 0.004520068107001985,
+                "spectral_radius": 0.014570245311964637,
+                "leak_rate": 0.7797123743266695,
+                "bias_scale": 2.4459425889657753
+            },
+            "mean": 0.20883766321281305,
+            "std": 0.023841426943210644,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 43,
+            "params": {
+                "input_scaling": 0.0042152821346355795,
+                "spectral_radius": 0.014436456719869133,
+                "leak_rate": 0.5424311251090637,
+                "bias_scale": 2.4246426487948782
+            },
+            "mean": 0.20600836929346036,
+            "std": 0.02469608947338139,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 44,
+            "params": {
+                "input_scaling": 0.0012316539987139053,
+                "spectral_radius": 0.01964412397918945,
+                "leak_rate": 0.8316997766046251,
+                "bias_scale": 1.4284509276050243
+            },
+            "mean": 0.20424492136564468,
+            "std": 0.025740946434851107,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 45,
+            "params": {
+                "input_scaling": 0.0021454088731784043,
+                "spectral_radius": 0.016468741533004174,
+                "leak_rate": 0.920731283384408,
+                "bias_scale": 3.6799181318014735
+            },
+            "mean": 0.2072159726775041,
+            "std": 0.017604385808520393,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 46,
+            "params": {
+                "input_scaling": 0.006925907569847629,
+                "spectral_radius": 0.02705480022605591,
+                "leak_rate": 0.46443559882768176,
+                "bias_scale": 5.328193484333702
+            },
+            "mean": 0.20312358570101807,
+            "std": 0.023381131123738828,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 47,
+            "params": {
+                "input_scaling": 0.004240721720047486,
+                "spectral_radius": 0.014171168034322222,
+                "leak_rate": 0.999201236836957,
+                "bias_scale": 2.286092218803579
+            },
+            "mean": 0.21079340119692264,
+            "std": 0.023764408661258753,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 48,
+            "params": {
+                "input_scaling": 0.004494427688522637,
+                "spectral_radius": 0.010192316045171864,
+                "leak_rate": 0.9511170505413314,
+                "bias_scale": 1.4450070090184715
+            },
+            "mean": 0.20683337666193377,
+            "std": 0.025502080806829763,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 49,
+            "params": {
+                "input_scaling": 0.0016994271885223307,
+                "spectral_radius": 0.01630662588251356,
+                "leak_rate": 0.9959738977947029,
+                "bias_scale": 3.269045694665771
+            },
+            "mean": 0.2094186504288646,
+            "std": 0.022657356499199775,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 50,
+            "params": {
+                "input_scaling": 0.0014185498103464955,
+                "spectral_radius": 0.02285139550263414,
+                "leak_rate": 0.9928667294695052,
+                "bias_scale": 3.1720135601930295
+            },
+            "mean": 0.20724609177024284,
+            "std": 0.024142504360994327,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 51,
+            "params": {
+                "input_scaling": 0.0021450003581797317,
+                "spectral_radius": 0.014508449284123254,
+                "leak_rate": 0.9582959467266331,
+                "bias_scale": 2.1715180468314372
+            },
+            "mean": 0.21148851261763474,
+            "std": 0.023123104932376865,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 52,
+            "params": {
+                "input_scaling": 0.003836239291205287,
+                "spectral_radius": 0.016019850929364695,
+                "leak_rate": 0.9536553080077419,
+                "bias_scale": 2.21819077499925
+            },
+            "mean": 0.2110660274549719,
+            "std": 0.023339804724739448,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 53,
+            "params": {
+                "input_scaling": 0.0018523501262665881,
+                "spectral_radius": 0.013618769428376573,
+                "leak_rate": 0.966051566601239,
+                "bias_scale": 2.0496342266055074
+            },
+            "mean": 0.21217991472066328,
+            "std": 0.022487607826750404,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 54,
+            "params": {
+                "input_scaling": 0.0018188294103031579,
+                "spectral_radius": 0.03354883610739143,
+                "leak_rate": 0.9732168104538041,
+                "bias_scale": 6.716434787459075
+            },
+            "mean": 0.20844605190183513,
+            "std": 0.02411576697365126,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 55,
+            "params": {
+                "input_scaling": 0.002691354548585806,
+                "spectral_radius": 0.013561578327518517,
+                "leak_rate": 0.9056943913276078,
+                "bias_scale": 1.9847314565147938
+            },
+            "mean": 0.21247917031397673,
+            "std": 0.022895875689703655,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 56,
+            "params": {
+                "input_scaling": 0.0010078140307576051,
+                "spectral_radius": 0.014316243285924329,
+                "leak_rate": 0.8968552274377127,
+                "bias_scale": 1.9708748182897993
+            },
+            "mean": 0.21097482447825117,
+            "std": 0.021639368142885182,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 57,
+            "params": {
+                "input_scaling": 0.001065463943252897,
+                "spectral_radius": 0.012688767630269474,
+                "leak_rate": 0.9064464284842274,
+                "bias_scale": 2.0851592390678113
+            },
+            "mean": 0.21051713061450603,
+            "std": 0.02178672563335318,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 58,
+            "params": {
+                "input_scaling": 0.0024999567106169475,
+                "spectral_radius": 0.04868966442127057,
+                "leak_rate": 0.9013668214280023,
+                "bias_scale": 1.6972690356472349
+            },
+            "mean": 0.19249849186594978,
+            "std": 0.026117908925969845,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 59,
+            "params": {
+                "input_scaling": 0.005807103492385835,
+                "spectral_radius": 0.023411096506712234,
+                "leak_rate": 0.9685360023787294,
+                "bias_scale": 1.1113489724975025
+            },
+            "mean": 0.2028369865364942,
+            "std": 0.02714319995190143,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 60,
+            "params": {
+                "input_scaling": 0.0026062669790495236,
+                "spectral_radius": 0.014027204010363507,
+                "leak_rate": 0.9479747417120813,
+                "bias_scale": 0.9082326337714389
+            },
+            "mean": 0.20014058217868094,
+            "std": 0.02673410861651855,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 61,
+            "params": {
+                "input_scaling": 0.0010132797077448228,
+                "spectral_radius": 0.012530875819348404,
+                "leak_rate": 0.9134748383308205,
+                "bias_scale": 2.0391958156331698
+            },
+            "mean": 0.21052830928568844,
+            "std": 0.021611029402927782,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 62,
+            "params": {
+                "input_scaling": 0.0014596681987565038,
+                "spectral_radius": 0.01013677845573498,
+                "leak_rate": 0.8526953790480207,
+                "bias_scale": 1.7363228413744023
+            },
+            "mean": 0.21256763035109155,
+            "std": 0.023980593470860505,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 63,
+            "params": {
+                "input_scaling": 0.0013300585775557028,
+                "spectral_radius": 0.010366037883903676,
+                "leak_rate": 0.8670966110118192,
+                "bias_scale": 1.6228257551021996
+            },
+            "mean": 0.2115647596479675,
+            "std": 0.024604554700328424,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 64,
+            "params": {
+                "input_scaling": 0.0016318023123330445,
+                "spectral_radius": 0.010762933189697304,
+                "leak_rate": 0.8489628929538814,
+                "bias_scale": 1.6350395135376352
+            },
+            "mean": 0.2118285287876378,
+            "std": 0.02458445290939948,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 65,
+            "params": {
+                "input_scaling": 0.0014072067084706847,
+                "spectral_radius": 0.010022924880787168,
+                "leak_rate": 0.8579293385829784,
+                "bias_scale": 1.1777745689177006
+            },
+            "mean": 0.20467811667105437,
+            "std": 0.027212362098767706,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 66,
+            "params": {
+                "input_scaling": 0.001975918509094702,
+                "spectral_radius": 0.020173613114701384,
+                "leak_rate": 0.8394994408791775,
+                "bias_scale": 1.616897888577239
+            },
+            "mean": 0.21058746957598604,
+            "std": 0.024338432085868857,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 67,
+            "params": {
+                "input_scaling": 0.0014619198816028908,
+                "spectral_radius": 0.03508609486170434,
+                "leak_rate": 0.7964193376389465,
+                "bias_scale": 4.201341266140584
+            },
+            "mean": 0.20359192199545242,
+            "std": 0.019651319851486767,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 68,
+            "params": {
+                "input_scaling": 0.0026463156125638107,
+                "spectral_radius": 0.010115795458536046,
+                "leak_rate": 0.9428735478359264,
+                "bias_scale": 0.6209002819508269
+            },
+            "mean": 0.19902516762117223,
+            "std": 0.02693566924298711,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 69,
+            "params": {
+                "input_scaling": 0.0033384263793673576,
+                "spectral_radius": 0.017230741755058187,
+                "leak_rate": 0.8665729540381611,
+                "bias_scale": 1.272816981984824
+            },
+            "mean": 0.2060396851681487,
+            "std": 0.026841362385725605,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 70,
+            "params": {
+                "input_scaling": 0.001274844176558386,
+                "spectral_radius": 0.02286007227264806,
+                "leak_rate": 0.8831850586907,
+                "bias_scale": 1.7539943164238756
+            },
+            "mean": 0.20706240581913785,
+            "std": 0.023892325458460366,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 71,
+            "params": {
+                "input_scaling": 0.0017708497739843446,
+                "spectral_radius": 0.012460148533599186,
+                "leak_rate": 0.9305515715972286,
+                "bias_scale": 1.999628157492577
+            },
+            "mean": 0.21206530108646188,
+            "std": 0.02236797204122152,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 72,
+            "params": {
+                "input_scaling": 0.001640151663402505,
+                "spectral_radius": 0.012265341752249179,
+                "leak_rate": 0.9289801013966144,
+                "bias_scale": 0.970369702709407
+            },
+            "mean": 0.20029332868988264,
+            "std": 0.026626816187836053,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 73,
+            "params": {
+                "input_scaling": 0.002511415605251237,
+                "spectral_radius": 0.017034315467029063,
+                "leak_rate": 0.9620480725140662,
+                "bias_scale": 2.810406876448807
+            },
+            "mean": 0.20905504532803296,
+            "std": 0.024074881367658053,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 74,
+            "params": {
+                "input_scaling": 0.0020032412585291167,
+                "spectral_radius": 0.012065859451205828,
+                "leak_rate": 0.8404672292746419,
+                "bias_scale": 1.4751416697714563
+            },
+            "mean": 0.2096393472659306,
+            "std": 0.02541945326360434,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 75,
+            "params": {
+                "input_scaling": 0.002303149757836276,
+                "spectral_radius": 0.02535606368996603,
+                "leak_rate": 0.8789713483716431,
+                "bias_scale": 2.2108829068160776
+            },
+            "mean": 0.21033362006223713,
+            "std": 0.022467359722345665,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 76,
+            "params": {
+                "input_scaling": 0.0012723842684406255,
+                "spectral_radius": 0.017440144568037757,
+                "leak_rate": 0.16777623033565653,
+                "bias_scale": 1.2083394707576307
+            },
+            "mean": 0.18178357502434622,
+            "std": 0.024121866253058587,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 77,
+            "params": {
+                "input_scaling": 0.003054779964779609,
+                "spectral_radius": 0.04220938124077503,
+                "leak_rate": 0.8043477505871406,
+                "bias_scale": 1.7491803523501093
+            },
+            "mean": 0.20575768317340834,
+            "std": 0.02344813747487171,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 78,
+            "params": {
+                "input_scaling": 0.001614842244865331,
+                "spectral_radius": 0.01221605986000091,
+                "leak_rate": 0.9214445703068916,
+                "bias_scale": 3.064063908050203
+            },
+            "mean": 0.20845673391162478,
+            "std": 0.022583154034017873,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 79,
+            "params": {
+                "input_scaling": 0.005422985058009104,
+                "spectral_radius": 0.021355291674683034,
+                "leak_rate": 0.968528402751499,
+                "bias_scale": 3.530949470436165
+            },
+            "mean": 0.20698669915795603,
+            "std": 0.01742920987334079,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 80,
+            "params": {
+                "input_scaling": 0.0018823764020976903,
+                "spectral_radius": 0.06242732512799474,
+                "leak_rate": 0.8378620100914753,
+                "bias_scale": 0.826839162089223
+            },
+            "mean": 0.14552821936816812,
+            "std": 0.0293354102877862,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 81,
+            "params": {
+                "input_scaling": 0.0010106637564041964,
+                "spectral_radius": 0.01522314412563014,
+                "leak_rate": 0.8915202498488236,
+                "bias_scale": 2.079520769839562
+            },
+            "mean": 0.21018505617840394,
+            "std": 0.021527727772842908,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 82,
+            "params": {
+                "input_scaling": 0.0011859628236637852,
+                "spectral_radius": 0.012445138000511358,
+                "leak_rate": 0.9277879644696477,
+                "bias_scale": 1.5508009553495938
+            },
+            "mean": 0.20951039309499633,
+            "std": 0.024487846848373573,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 83,
+            "params": {
+                "input_scaling": 0.0014819105596970612,
+                "spectral_radius": 0.010000695195045085,
+                "leak_rate": 0.893666857606699,
+                "bias_scale": 1.8788820639980819
+            },
+            "mean": 0.21302105756815956,
+            "std": 0.023039866445198422,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 84,
+            "params": {
+                "input_scaling": 0.9531402150185321,
+                "spectral_radius": 0.010162689776840199,
+                "leak_rate": 0.8544487168692703,
+                "bias_scale": 1.3066152090521124
+            },
+            "mean": 0.11615570817840529,
+            "std": 0.01844342103731994,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 85,
+            "params": {
+                "input_scaling": 0.0035781601679569183,
+                "spectral_radius": 0.018366942544308675,
+                "leak_rate": 0.7899255317468404,
+                "bias_scale": 1.9186165886796058
+            },
+            "mean": 0.2133764121273564,
+            "std": 0.022597292982481466,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 86,
+            "params": {
+                "input_scaling": 0.002803841063736691,
+                "spectral_radius": 0.028126238022301082,
+                "leak_rate": 0.7883745991347642,
+                "bias_scale": 1.793580009160197
+            },
+            "mean": 0.21193410438374488,
+            "std": 0.022552674932908606,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 87,
+            "params": {
+                "input_scaling": 0.0028931267127387905,
+                "spectral_radius": 0.019269606091786178,
+                "leak_rate": 0.776427952725575,
+                "bias_scale": 1.894071652582277
+            },
+            "mean": 0.21342588665763879,
+            "std": 0.022322102622444634,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 88,
+            "params": {
+                "input_scaling": 0.00742440081702846,
+                "spectral_radius": 0.030233897510064084,
+                "leak_rate": 0.7766313864236681,
+                "bias_scale": 1.8714912017069494
+            },
+            "mean": 0.21304673383060485,
+            "std": 0.022409232136149093,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 89,
+            "params": {
+                "input_scaling": 0.008100126554246162,
+                "spectral_radius": 0.03097088733128976,
+                "leak_rate": 0.7867863619132899,
+                "bias_scale": 2.6269898344479072
+            },
+            "mean": 0.20856776580030476,
+            "std": 0.023601717221244763,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 90,
+            "params": {
+                "input_scaling": 0.00298183157660648,
+                "spectral_radius": 0.03728870824503316,
+                "leak_rate": 0.691412851925903,
+                "bias_scale": 2.9011917546439085
+            },
+            "mean": 0.20701029715255354,
+            "std": 0.024909867449690336,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 91,
+            "params": {
+                "input_scaling": 0.003515953641400154,
+                "spectral_radius": 0.026815903393588355,
+                "leak_rate": 0.7412118367537207,
+                "bias_scale": 1.931116230777418
+            },
+            "mean": 0.21310929485333663,
+            "std": 0.021653147709310767,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 92,
+            "params": {
+                "input_scaling": 0.006726055070748883,
+                "spectral_radius": 0.025594035538438437,
+                "leak_rate": 0.7411628335794709,
+                "bias_scale": 1.8506425985368553
+            },
+            "mean": 0.21205228204577256,
+            "std": 0.02254066656825332,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 93,
+            "params": {
+                "input_scaling": 0.010731172465843857,
+                "spectral_radius": 0.020447669886125862,
+                "leak_rate": 0.7412033339289253,
+                "bias_scale": 1.8157463620269039
+            },
+            "mean": 0.2074529058612165,
+            "std": 0.024001786803969184,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 94,
+            "params": {
+                "input_scaling": 0.005091574060201286,
+                "spectral_radius": 0.02435179019827825,
+                "leak_rate": 0.7050571744441557,
+                "bias_scale": 2.369601106472827
+            },
+            "mean": 0.20961764301494074,
+            "std": 0.02396686661476872,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 95,
+            "params": {
+                "input_scaling": 0.006639914433546864,
+                "spectral_radius": 0.08225676042650132,
+                "leak_rate": 0.6447999736935631,
+                "bias_scale": 1.9266620481314687
+            },
+            "mean": 0.20497569222991938,
+            "std": 0.023032835061723433,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 96,
+            "params": {
+                "input_scaling": 0.0036770700791601972,
+                "spectral_radius": 0.054573472342633315,
+                "leak_rate": 0.8190698705973896,
+                "bias_scale": 1.3630121597616291
+            },
+            "mean": 0.18889803699534377,
+            "std": 0.02754058179140191,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 97,
+            "params": {
+                "input_scaling": 0.021738771193595238,
+                "spectral_radius": 0.018368405387003656,
+                "leak_rate": 0.738860797189875,
+                "bias_scale": 1.1036488659865191
+            },
+            "mean": 0.19922662330438723,
+            "std": 0.025389915525231715,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 98,
+            "params": {
+                "input_scaling": 0.006538312733650926,
+                "spectral_radius": 0.029362911011131143,
+                "leak_rate": 0.7669633347583593,
+                "bias_scale": 2.4297358345099767
+            },
+            "mean": 0.21018481511739995,
+            "std": 0.02367254695438788,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        },
+        {
+            "number": 99,
+            "params": {
+                "input_scaling": 0.013443808898890519,
+                "spectral_radius": 0.03980970647650968,
+                "leak_rate": 0.8167970662863997,
+                "bias_scale": 0.22427642188101632
+            },
+            "mean": 0.1762171901298831,
+            "std": 0.029444868047861728,
+            "test_mean": null,
+            "test_std": null,
+            "state": "COMPLETE"
+        }
+    ],
+    "protocol": {
+        "n_trials": 100,
+        "tune_seeds": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ],
+        "eval_seeds": [
+            1000,
+            1001,
+            1002,
+            1003,
+            1004,
+            1005,
+            1006,
+            1007,
+            1008,
+            1009,
+            1010,
+            1011,
+            1012,
+            1013,
+            1014,
+            1015,
+            1016,
+            1017,
+            1018,
+            1019
+        ],
+        "direction": "maximize",
+        "objective_split": null,
+        "split": null
+    }
+}

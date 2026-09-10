@@ -1,0 +1,36 @@
+{
+  "name": "optuna_mixing_capacity_qrc_gaussian",
+  "run_id": "0903012719",
+  "generated_at": "2026-09-03T01:27:20+02:00",
+  "config_path": "experiments/hyperparameter_studies/optuna_mixing_gaussian_one_to_one/grid.yaml",
+  "config_sha256": "a7bcdb2b0e34190229c6712ae6b85167883a367daa7bb237b300e6660d626c20",
+  "grid_fingerprint": "8faa4d0b4b41799a4a08bd82cc80aad2a11c8b04ad186167c5bfeae39e29fdca",
+  "axes": [
+    {
+      "n": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    {
+      "d": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "encoding_mode": [
+        "one_to_one"
+      ]
+    }
+  ],
+  "filter": "n >= d",
+  "job_count": 14,
+  "target_script": "run_optuna_job",
+  "python": "3.12.3"
+}

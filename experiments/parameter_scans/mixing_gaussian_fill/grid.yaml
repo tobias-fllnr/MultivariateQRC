@@ -1,0 +1,16 @@
+# mixing_gaussian_fill at the tuned gamma.
+# An encoding- and coupling-strength scan at n = 6, d = 2, with gamma taken from the
+# holdout hyperparameter study rather than chosen by hand: 5.0 is 5.084913 rounded to
+# the nearest integer -- the gamma of the best trial at n = 6, d = 2 in
+# experiments/hyperparameter_studies/optuna_mixing_gaussian_fill/, whose run 0903012720
+# is what Figure 2 plots. See README.md.
+name: mixing_capacity_qrc_gaussian
+axes:
+  - n: {values: [6]}
+  - d: {values: [2]}
+  - encoding_mode: {values: [fill]}
+  - dt: {values: [1.0]}
+  - encoding_strength: {logspace: [-4, 0, 13]}
+  - coupling_strength: {logspace: [-5, 1, 19]}
+  - gamma: {values: [5.0]}
+  - seed: {range: 20}

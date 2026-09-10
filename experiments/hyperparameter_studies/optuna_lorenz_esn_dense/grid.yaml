@@ -1,0 +1,9 @@
+# Classical ESN baseline on Lorenz-63, two-stage search-then-holdout protocol. Global
+# encoding, over the same (n, d, target) points the quantum Lorenz holdout studies use;
+# see README.md.
+name: optuna_lorenz63_esn
+axes:
+  - n: {values: [6]}
+  - d: {values: [1, 2, 3]}
+  - target: {values: [x_1, all_1]}
+  - encoding_mode: {values: [dense]}

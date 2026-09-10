@@ -1,0 +1,43 @@
+{
+  "name": "optuna_mixing_capacity_qrc_tilted_tfim",
+  "run_id": "0904224422",
+  "generated_at": "2026-09-04T22:44:22+02:00",
+  "config_path": "experiments/finite_shots/ensemble_sweep_dv/grid.yaml",
+  "config_sha256": "743b90a8348fb7b462cd1ccda75531b38a89ba4846d3eebc0e6bcc7e6bb346cb",
+  "grid_fingerprint": "257aab20396b388ed2c4f428dca68371191f48508cc99bc81286a0742829e653",
+  "axes": [
+    {
+      "n": [
+        "4"
+      ]
+    },
+    {
+      "d": [
+        "2"
+      ]
+    },
+    {
+      "encoding_mode": [
+        "one_to_one",
+        "dense",
+        "fill"
+      ]
+    },
+    {
+      "n_shots": [
+        "10000",
+        "1000000",
+        "100000000",
+        "10000000000",
+        "1000000000000",
+        "inf"
+      ]
+    }
+  ],
+  "filter": null,
+  "n_trials": 300,
+  "n_startup_trials": 30,
+  "job_count": 18,
+  "target_script": "run_optuna_job",
+  "python": "3.12.3"
+}

@@ -1,0 +1,37 @@
+{
+  "name": "optuna_lorenz63_qrc_tilted_tfim",
+  "run_id": "0903163856",
+  "generated_at": "2026-09-03T16:38:55+02:00",
+  "config_path": "experiments/hyperparameter_studies/optuna_lorenz_tfim_fill/grid.yaml",
+  "config_sha256": "30dd458e5340859170c046409235cd922ebf80acd0ff4afadc7aee5d398ccf27",
+  "grid_fingerprint": "866d612706aeab9075e49c995f2d45b100f1dfcf08198b51e12f3c094f2aaecf",
+  "axes": [
+    {
+      "n": [
+        "6"
+      ]
+    },
+    {
+      "d": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "target": [
+        "x_1",
+        "all_1"
+      ]
+    },
+    {
+      "encoding_mode": [
+        "fill"
+      ]
+    }
+  ],
+  "filter": null,
+  "job_count": 6,
+  "target_script": "run_optuna_job",
+  "python": "3.12.3"
+}

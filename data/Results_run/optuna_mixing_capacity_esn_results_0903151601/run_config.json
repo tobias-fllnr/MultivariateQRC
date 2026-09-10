@@ -1,0 +1,36 @@
+{
+  "name": "optuna_mixing_capacity_esn",
+  "run_id": "0903151601",
+  "generated_at": "2026-09-03T15:16:01+02:00",
+  "config_path": "experiments/hyperparameter_studies/optuna_mixing_esn_dense/grid.yaml",
+  "config_sha256": "96eb0976cd459354aaa639e595378f3819e43f227bca1a99ca7f36a55b9a343b",
+  "grid_fingerprint": "9a37c8a5952054cc1e06728c715ce0143abc13cf3499deab62d368585d5d2e8b",
+  "axes": [
+    {
+      "n": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    {
+      "d": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "encoding_mode": [
+        "dense"
+      ]
+    }
+  ],
+  "filter": null,
+  "job_count": 20,
+  "target_script": "run_optuna_job",
+  "python": "3.12.3"
+}

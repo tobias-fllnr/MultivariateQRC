@@ -1,0 +1,36 @@
+{
+  "name": "optuna_mixing_capacity_qrc_tilted_tfim",
+  "run_id": "0903012719",
+  "generated_at": "2026-09-03T01:27:19+02:00",
+  "config_path": "experiments/hyperparameter_studies/optuna_mixing_tfim_fill/grid.yaml",
+  "config_sha256": "6d92a926a7be64e6c8ac85847e7dc31b4775b8568fa9bf21ef79f5622fb3ac02",
+  "grid_fingerprint": "161be455a2876d4db470e5f1f2e0a96993e2f82452b635922657b9ded3e0cf9d",
+  "axes": [
+    {
+      "n": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    {
+      "d": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "encoding_mode": [
+        "fill"
+      ]
+    }
+  ],
+  "filter": "n >= d",
+  "job_count": 14,
+  "target_script": "run_optuna_job",
+  "python": "3.12.3"
+}

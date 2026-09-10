@@ -1,0 +1,37 @@
+{
+  "name": "optuna_lorenz63_qrc_gaussian",
+  "run_id": "0903163854",
+  "generated_at": "2026-09-03T16:38:54+02:00",
+  "config_path": "experiments/hyperparameter_studies/optuna_lorenz_gaussian_dense/grid.yaml",
+  "config_sha256": "103728ddd9ec0dd3fbea040b6b4c538952cb464db4bc2784b6f07b70da3281e4",
+  "grid_fingerprint": "7598be6908eeda9a8d426cacb18777c1143203cfa1a182ab106d7a6103badf46",
+  "axes": [
+    {
+      "n": [
+        "6"
+      ]
+    },
+    {
+      "d": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "target": [
+        "x_1",
+        "all_1"
+      ]
+    },
+    {
+      "encoding_mode": [
+        "dense"
+      ]
+    }
+  ],
+  "filter": null,
+  "job_count": 6,
+  "target_script": "run_optuna_job",
+  "python": "3.12.3"
+}
