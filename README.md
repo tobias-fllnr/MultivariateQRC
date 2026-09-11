@@ -1,5 +1,7 @@
 # Multivariate quantum reservoir computing with discrete and continuous variable systems
 
+[![Identifier](https://img.shields.io/badge/doi-10.18419%2Fdarus--6457-d45815.svg)](https://doi.org/10.18419/darus-6457)
+
 Code and data accompanying
 
 > Tobias Fellner, Jonas Merklinger and Christian Holm, *Multivariate quantum reservoir computing with discrete and continuous variable systems*.
